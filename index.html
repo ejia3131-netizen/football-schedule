@@ -63,9 +63,14 @@
   .day h2 .today { font-size: 12px; font-weight: 700; color: var(--accent); background: var(--accent-soft); padding: 1px 8px; border-radius: 4px; }
   .list { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
 
-  .row { display: grid; grid-template-columns: 64px minmax(0, 1fr) 96px 88px; align-items: center; gap: 12px; padding: 12px 16px; border-top: 1px solid var(--line); }
+  .row { display: grid; grid-template-columns: 64px minmax(0, 1fr) 80px 72px 104px; align-items: center; gap: 12px; padding: 12px 16px; border-top: 1px solid var(--line); }
   .row:first-child { border-top: 0; }
   .row.done { color: var(--muted); }
+  .row.confirmed { background: var(--accent-soft); }
+  .confirm { justify-self: end; font: inherit; font-size: 13px; font-weight: 500; border: 1px solid var(--accent); background: var(--surface); color: var(--accent); border-radius: 6px; padding: 5px 10px; cursor: pointer; white-space: nowrap; }
+  .confirm[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
+  .confirm:disabled { opacity: 0.55; cursor: progress; }
+  .confirm:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .time { font-family: var(--font-num); font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; letter-spacing: 0.02em; }
   .comp { font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 2px 8px; }
   .comp .cat { color: var(--accent); font-weight: 500; }
@@ -98,13 +103,28 @@
   .copy:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .copy.done { color: var(--ok); border-color: var(--ok); }
 
+  .sync { font-size: 12px; color: var(--muted); }
+  .sync button { font: inherit; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+  .sync.err { color: var(--live); }
+
+  dialog { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); padding: 20px; width: min(460px, calc(100vw - 32px)); box-sizing: border-box; }
+  dialog::backdrop { background: rgb(0 0 0 / 0.4); }
+  dialog h3 { margin: 0 0 8px; font-size: 17px; }
+  dialog ol { margin: 8px 0 12px; padding-left: 20px; font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
+  dialog a { color: var(--accent); }
+  dialog input { width: 100%; box-sizing: border-box; font: 13px ui-monospace, Menlo, monospace; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--ground); color: var(--ink); }
+  dialog .actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 14px; }
+  dialog .actions button { font: inherit; font-size: 14px; padding: 6px 14px; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+  dialog .actions .primary { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+
   .empty { margin-top: 32px; padding: 32px 16px; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: 10px; }
   .foot { margin-top: 32px; font-size: 12px; color: var(--muted); max-width: 65ch; }
 
   @media (max-width: 600px) {
     h1 { font-size: 23px; }
     .toggle { margin-left: 0; }
-    .row { grid-template-columns: 52px minmax(0, 1fr) auto; grid-template-areas: "time main state" "time main link"; row-gap: 4px; padding: 12px; }
+    .row { grid-template-columns: 52px minmax(0, 1fr) auto; grid-template-areas: "time main state" "time main link" "time main confirm"; row-gap: 6px; padding: 12px; }
+    .confirm { grid-area: confirm; }
     .time { grid-area: time; font-size: 19px; align-self: start; }
     .main { grid-area: main; }
     .state { grid-area: state; text-align: right; font-size: 16px; }
@@ -119,6 +139,7 @@
     <div>
       <h1>足球赛程 · 信号源</h1>
       <div class="meta" id="updated"></div>
+      <div class="sync" id="sync" aria-live="polite"></div>
     </div>
   </header>
   <div class="summary" id="summary"></div>
@@ -126,25 +147,56 @@
   <nav class="bar" aria-label="筛选">
     <div id="chips" style="display:flex;flex-wrap:wrap;gap:8px"></div>
     <label class="toggle"><input type="checkbox" id="only-linked"> 只看有信号源</label>
+    <label class="toggle" style="margin-left:0"><input type="checkbox" id="only-confirmed"> 只看已确认</label>
   </nav>
 
   <main id="days"></main>
+
+  <dialog id="token-dialog">
+    <form method="dialog" id="token-form">
+      <h3>在这台设备开启确认功能</h3>
+      <p style="margin:0;font-size:13px">确认记录保存在你的 GitHub 仓库，所有设备都会同步。每台设备只需要设置一次。</p>
+      <ol>
+        <li>打开 <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub 新建 Fine-grained token</a></li>
+        <li>Repository access 选 <b>Only select repositories</b> → <b>football-schedule</b></li>
+        <li>Permissions → Repository permissions → <b>Contents</b> 选 <b>Read and write</b></li>
+        <li>生成后复制 token，贴到下面</li>
+      </ol>
+      <input id="token-input" type="password" placeholder="github_pat_..." autocomplete="off" required>
+      <div class="actions">
+        <button type="button" id="token-cancel">取消</button>
+        <button type="submit" class="primary">保存</button>
+      </div>
+    </form>
+  </dialog>
 
   <p class="foot">赛程来自 Flashscore，只包括英超、欧冠、马来西亚所有联赛，以及有马来西亚球队参加的比赛。信号源状态来自 PandaScore，网站一般只在开赛前几小时才列出比赛，所以较晚的比赛会先显示「未列出」。推流链接带签名，大约 24 小时后失效，每 30 分钟自动刷新。时间按你设备的时区显示。</p>
 </div>
 
 <script>
-const DATA = {"matches": [{"id": "jTnIKqKc", "start": 1789563600, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Terengganu", "away": "DPMM", "state": "live", "scoreHome": "0", "scoreAway": "1", "url": "https://www.flashscore.com/match/jTnIKqKc/", "linkStatus": "已生成", "linkCheckedAt": 1789565063, "streams": [{"label": "HD", "rtmp": "rtmp://cpull.esptv666.com/sport/202_5739431_1?auth_key=1789651470-0-0-b332108c030876a9cce0e5b049ae13b0", "m3u8": "https://sport.esptv666.com/sport/202_5739431_1.m3u8?txSecret=ceb5536204174a438860d4532400c6b4&txTime=6AABE9F8", "flv": "https://sport.esptv666.com/sport/202_5739431_1.flv?txSecret=ceb5536204174a438860d4532400c6b4&txTime=6AABE9F8"}]}, {"id": "ObA4gvV1", "start": 1789758000, "category": "英超", "country": "England", "competition": "Premier League", "home": "Brentford", "away": "Chelsea", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/ObA4gvV1/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "4Sl9Mxal", "start": 1789817400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Tottenham", "away": "Aston Villa", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/4Sl9Mxal/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "WIpYn8Jq", "start": 1789822800, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Star City", "away": "Selangor", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/WIpYn8Jq/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "j52jHsN8", "start": 1789826400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Brighton", "away": "Arsenal", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/j52jHsN8/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "rDKcFLiL", "start": 1789826400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Everton", "away": "Ipswich", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/rDKcFLiL/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "nTaVTK6E", "start": 1789826400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Newcastle", "away": "Hull", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/nTaVTK6E/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "YqbwSbyR", "start": 1789835400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Nottingham", "away": "Coventry", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/YqbwSbyR/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "UB9wJWlg", "start": 1789894800, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Penang", "away": "Johor DT", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/UB9wJWlg/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "8jfSVUpd", "start": 1789909200, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Kelantan City", "away": "Kuching City FC", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/8jfSVUpd/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "joCde00k", "start": 1789909200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Bournemouth", "away": "Liverpool", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/joCde00k/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "n99y8wpe", "start": 1789909200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Leeds", "away": "Crystal Palace", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/n99y8wpe/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "fZCq6HE7", "start": 1789909200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Manchester City", "away": "Sunderland", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/fZCq6HE7/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "vq6T9aFr", "start": 1789918200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Fulham", "away": "Manchester Utd", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/vq6T9aFr/", "linkStatus": null, "linkCheckedAt": null, "streams": []}], "generatedAt": 1789565063};
+const DATA = {"matches": [{"id": "jTnIKqKc", "start": 1789563600, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Terengganu", "away": "DPMM", "state": "live", "scoreHome": "0", "scoreAway": "1", "url": "https://www.flashscore.com/match/jTnIKqKc/", "linkStatus": "已生成", "linkCheckedAt": 1789565839, "streams": [{"label": "HD", "rtmp": "rtmp://cpull.esptv666.com/sport/202_5739431_1?auth_key=1789652258-0-0-384da6e2d45db0a8bf202558ddca2c16", "m3u8": "https://sport.esptv666.com/sport/202_5739431_1.m3u8?txSecret=57894255197f4e5d3751f80876714af8&txTime=6AABED1C", "flv": "https://sport.esptv666.com/sport/202_5739431_1.flv?txSecret=57894255197f4e5d3751f80876714af8&txTime=6AABED1C"}]}, {"id": "ObA4gvV1", "start": 1789758000, "category": "英超", "country": "England", "competition": "Premier League", "home": "Brentford", "away": "Chelsea", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/ObA4gvV1/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "4Sl9Mxal", "start": 1789817400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Tottenham", "away": "Aston Villa", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/4Sl9Mxal/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "WIpYn8Jq", "start": 1789822800, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Star City", "away": "Selangor", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/WIpYn8Jq/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "j52jHsN8", "start": 1789826400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Brighton", "away": "Arsenal", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/j52jHsN8/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "rDKcFLiL", "start": 1789826400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Everton", "away": "Ipswich", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/rDKcFLiL/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "nTaVTK6E", "start": 1789826400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Newcastle", "away": "Hull", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/nTaVTK6E/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "YqbwSbyR", "start": 1789835400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Nottingham", "away": "Coventry", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/YqbwSbyR/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "UB9wJWlg", "start": 1789894800, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Penang", "away": "Johor DT", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/UB9wJWlg/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "8jfSVUpd", "start": 1789909200, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Kelantan City", "away": "Kuching City FC", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/8jfSVUpd/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "joCde00k", "start": 1789909200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Bournemouth", "away": "Liverpool", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/joCde00k/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "n99y8wpe", "start": 1789909200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Leeds", "away": "Crystal Palace", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/n99y8wpe/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "fZCq6HE7", "start": 1789909200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Manchester City", "away": "Sunderland", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/fZCq6HE7/", "linkStatus": null, "linkCheckedAt": null, "streams": []}, {"id": "vq6T9aFr", "start": 1789918200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Fulham", "away": "Manchester Utd", "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/vq6T9aFr/", "linkStatus": null, "linkCheckedAt": null, "streams": []}], "generatedAt": 1789565839};
 const CATS = ["英超", "欧冠", "马来西亚联赛", "马来西亚球队"];
 const LINK = { "已生成": ["ok", "已生成"], "未生成": ["wait", "未生成"] };
 const WEEK = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
 
+const REPO = "ejia3131-netizen/football-schedule";
+const CONFIRM_PATH = "confirmed.json";
+
 let filter = "全部";
 let onlyLinked = false;
+let onlyConfirmed = false;
+let token = "";
 try {
   filter = localStorage.getItem("fs-filter") || "全部";
   onlyLinked = localStorage.getItem("fs-linked") === "1";
+  onlyConfirmed = localStorage.getItem("fs-confirmed") === "1";
+  token = localStorage.getItem("fs-gh-token") || "";
 } catch (e) {}
+
+// Confirmed matches live in confirmed.json in the GitHub repo so every device sees the same list.
+let confirmed = {};
+let confirmedSha = null;
+let pendingId = null;
 
 const pad = n => String(n).padStart(2, "0");
 const dayKey = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
@@ -171,7 +223,8 @@ function render() {
     <span><span class="n">${visible.length}</span>场比赛</span>
     <span><span class="n">${visible.filter(m => m.state === "live").length}</span>进行中</span>
     <span><span class="n">${count("已生成")}</span>已生成</span>
-    <span><span class="n">${count("未生成")}</span>未生成</span>`;
+    <span><span class="n">${count("未生成")}</span>未生成</span>
+    <span><span class="n">${visible.filter(m => confirmed[m.id]).length}</span>已确认</span>`;
 
   const chips = document.getElementById("chips");
   chips.innerHTML = ["全部", ...CATS].map(c => {
@@ -179,8 +232,10 @@ function render() {
     return `<button class="chip" type="button" id="chip-${c}" data-cat="${c}" aria-pressed="${c === filter}">${c}<span class="c">${n}</span></button>`;
   }).join("");
   document.getElementById("only-linked").checked = onlyLinked;
+  document.getElementById("only-confirmed").checked = onlyConfirmed;
 
-  const shown = visible.filter(m => (filter === "全部" || m.category === filter) && (!onlyLinked || m.linkStatus));
+  const shown = visible.filter(m =>
+    (filter === "全部" || m.category === filter) && (!onlyLinked || m.linkStatus) && (!onlyConfirmed || confirmed[m.id]));
   const groups = new Map();
   for (const m of shown) {
     const d = new Date(m.start * 1000);
@@ -191,14 +246,17 @@ function render() {
 
   const days = document.getElementById("days");
   if (!shown.length) {
-    days.innerHTML = `<div class="empty">${onlyLinked ? "目前没有带信号源的比赛。取消「只看有信号源」可以查看完整赛程。" : "这个分类未来几天没有比赛。"}</div>`;
+    days.innerHTML = `<div class="empty">${onlyConfirmed ? "还没有已确认的比赛。取消「只看已确认」后，点比赛右边的「确认要播」。"
+      : onlyLinked ? "目前没有带信号源的比赛。取消「只看有信号源」可以查看完整赛程。" : "这个分类未来几天没有比赛。"}</div>`;
     return;
   }
+  const open = [...days.querySelectorAll("details[open]")].map(d => d.id);
   days.innerHTML = [...groups.entries()].map(([k, g]) => `
     <section class="day">
       <h2><span class="date">${g.date.getMonth() + 1}月${g.date.getDate()}日</span>${WEEK[g.date.getDay()]}${k === todayKey ? '<span class="today">今天</span>' : ""}</h2>
       <div class="list">${g.rows.map(row).join("")}</div>
     </section>`).join("");
+  for (const id of open) { const d = document.getElementById(id); if (d) d.open = true; }
 }
 
 function row(m) {
@@ -209,7 +267,7 @@ function row(m) {
   else if (m.state === "finished" && hasScore) state = `${esc(m.scoreHome)}–${esc(m.scoreAway)}<span class="ft">完场</span>`;
   const [cls, label] = LINK[m.linkStatus] || ["none", "未列出"];
   return `
-    <div class="row${m.state === "finished" ? " done" : ""}">
+    <div class="row${m.state === "finished" ? " done" : ""}${confirmed[m.id] ? " confirmed" : ""}">
       <div class="time">${hm(d)}</div>
       <div class="main">
         <div class="comp"><span class="cat">${esc(m.category)}</span><span>${esc(m.country)} · ${esc(m.competition)}</span></div>
@@ -217,6 +275,7 @@ function row(m) {
       </div>
       <div class="state${m.state === "live" ? " live" : ""}">${state}</div>
       <div class="link ${cls}" title="${m.linkCheckedAt ? "最后检查 " + hm(new Date(m.linkCheckedAt * 1000)) : "PandaScore 尚未列出这场比赛"}">${label}</div>
+      <button class="confirm" type="button" data-id="${esc(m.id)}" aria-pressed="${!!confirmed[m.id]}"${pendingId === m.id ? " disabled" : ""}>${confirmed[m.id] ? "✓ 已确认" : "确认要播"}</button>
       ${streams(m)}
     </div>`;
 }
@@ -248,6 +307,133 @@ document.getElementById("days").addEventListener("click", async e => {
   setTimeout(() => { b.textContent = "复制"; b.classList.remove("done"); }, 1800);
 });
 
+const b64decode = b => new TextDecoder().decode(Uint8Array.from(atob(b.replace(/\n/g, "")), c => c.charCodeAt(0)));
+const b64encode = t => btoa(String.fromCharCode(...new TextEncoder().encode(t)));
+
+function setSync(html, isErr = false) {
+  const el = document.getElementById("sync");
+  el.innerHTML = html;
+  el.classList.toggle("err", isErr);
+}
+
+function syncIdle() {
+  const n = Object.keys(confirmed).length;
+  setSync(token
+    ? `确认记录已同步 · 共 ${n} 场 · <button type="button" id="forget-token">在这台设备停用</button>`
+    : `确认记录只读 · <button type="button" id="setup-token">在这台设备开启确认功能</button>`);
+}
+
+async function loadConfirmed() {
+  const headers = { Accept: "application/vnd.github+json" };
+  if (token) headers.Authorization = `Bearer ${token}`;
+  const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${CONFIRM_PATH}?ref=main&t=${Date.now()}`, { headers, cache: "no-store" });
+  if (r.status === 404) { confirmed = {}; confirmedSha = null; return; }
+  if (r.status === 401) throw Object.assign(new Error("token"), { code: 401 });
+  if (!r.ok) throw new Error(`GitHub ${r.status}`);
+  const j = await r.json();
+  confirmedSha = j.sha;
+  confirmed = JSON.parse(b64decode(j.content) || "{}");
+}
+
+async function saveConfirmed(message) {
+  const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${CONFIRM_PATH}`, {
+    method: "PUT",
+    headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}` },
+    body: JSON.stringify({
+      message, branch: "main",
+      content: b64encode(JSON.stringify(confirmed, null, 1) + "\n"),
+      ...(confirmedSha ? { sha: confirmedSha } : {}),
+    }),
+  });
+  if (r.status === 409 || r.status === 422) throw Object.assign(new Error("conflict"), { code: 409 });
+  if (r.status === 401 || r.status === 403 || r.status === 404) throw Object.assign(new Error("token"), { code: 401 });
+  if (!r.ok) throw new Error(`GitHub ${r.status}`);
+  confirmedSha = (await r.json()).content.sha;
+}
+
+async function toggleConfirm(id) {
+  const m = DATA.matches.find(x => x.id === id);
+  pendingId = id;
+  render();
+  setSync("正在保存…");
+  const apply = () => {
+    if (confirmed[id]) delete confirmed[id];
+    else confirmed[id] = { match: `${m.home} vs ${m.away}`, competition: m.competition, start: m.start, confirmedAt: Math.floor(Date.now() / 1000) };
+  };
+  const wanted = !confirmed[id];
+  try {
+    apply();
+    try {
+      await saveConfirmed(`${wanted ? "Confirm" : "Unconfirm"} ${m.home} vs ${m.away}`);
+    } catch (e) {
+      if (e.code !== 409) throw e;
+      // Another device saved in between: reload its list, reapply this change, save once more.
+      await loadConfirmed();
+      if (!!confirmed[id] !== wanted) apply();
+      await saveConfirmed(`${wanted ? "Confirm" : "Unconfirm"} ${m.home} vs ${m.away}`);
+    }
+    pendingId = null;
+    render();
+    syncIdle();
+  } catch (e) {
+    pendingId = null;
+    await loadConfirmed().catch(() => {});
+    render();
+    if (e.code === 401) setSync('保存失败：GitHub token 无效或没有写入权限。<button type="button" id="setup-token">重新设置</button>', true);
+    else setSync(`保存失败（${esc(e.message)}），请检查网络后再点一次。`, true);
+  }
+}
+
+const dialog = document.getElementById("token-dialog");
+function openTokenDialog() {
+  document.getElementById("token-input").value = "";
+  dialog.showModal();
+}
+document.getElementById("token-cancel").addEventListener("click", () => dialog.close());
+dialog.addEventListener("close", () => { if (!token) pendingId = null; });
+document.getElementById("token-form").addEventListener("submit", async () => {
+  token = document.getElementById("token-input").value.trim();
+  try { localStorage.setItem("fs-gh-token", token); } catch (e) {}
+  const id = pendingId;
+  pendingId = null;
+  await refreshConfirmed();
+  if (id && token) toggleConfirm(id);
+});
+
+document.getElementById("sync").addEventListener("click", e => {
+  if (e.target.id === "setup-token") openTokenDialog();
+  if (e.target.id === "forget-token") {
+    token = "";
+    try { localStorage.removeItem("fs-gh-token"); } catch (e) {}
+    syncIdle();
+  }
+});
+
+document.getElementById("days").addEventListener("click", e => {
+  const b = e.target.closest("button.confirm");
+  if (!b || b.disabled) return;
+  if (!token) { pendingId = b.dataset.id; openTokenDialog(); return; }
+  toggleConfirm(b.dataset.id);
+});
+
+async function refreshConfirmed() {
+  try {
+    await loadConfirmed();
+    render();
+    syncIdle();
+  } catch (e) {
+    if (e.code === 401) setSync('GitHub token 已失效。<button type="button" id="setup-token">重新设置</button>', true);
+    else setSync("暂时读不到确认记录（GitHub 连接问题），稍后会自动重试。", true);
+  }
+}
+
+document.getElementById("only-confirmed").addEventListener("change", e => {
+  onlyConfirmed = e.target.checked;
+  try { localStorage.setItem("fs-confirmed", onlyConfirmed ? "1" : "0"); } catch (e) {}
+  render();
+});
+document.addEventListener("visibilitychange", () => { if (!document.hidden && pendingId === null) refreshConfirmed(); });
+
 document.getElementById("chips").addEventListener("click", e => {
   const b = e.target.closest("button[data-cat]");
   if (!b) return;
@@ -262,4 +448,5 @@ document.getElementById("only-linked").addEventListener("change", e => {
 });
 
 render();
+refreshConfirmed();
 </script>
