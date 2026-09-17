@@ -103,6 +103,13 @@
   .copy:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .copy.done { color: var(--ok); border-color: var(--ok); }
 
+  .chan { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; font-size: 13px; color: var(--muted); padding-left: 76px; }
+  .chan select { font: inherit; font-size: 13px; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; max-width: 100%; }
+  .chan select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .chan select:disabled { opacity: 0.6; }
+  .chan .warn { color: var(--live); font-weight: 500; }
+  .chan .hint { font-size: 12px; }
+
   .sync { font-size: 12px; color: var(--muted); }
   .sync button { font: inherit; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
   .sync.err { color: var(--live); }
@@ -131,6 +138,7 @@
     .state.live { justify-content: flex-end; }
     .link { grid-area: link; }
     .streams { grid-column: 1 / -1; }
+    .chan { padding-left: 64px; }
   }
 </style>
 
@@ -175,13 +183,15 @@
 </div>
 
 <script>
-const DATA = {"matches": [{"id": "jTnIKqKc", "start": 1789563600, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Terengganu", "away": "DPMM", "homeTeam": {"id": "25SbDxKo", "slug": "terengganu"}, "awayTeam": {"id": "K2cZL3G5", "slug": "dpmm"}, "state": "finished", "scoreHome": "1", "scoreAway": "3", "url": "https://www.flashscore.com/match/jTnIKqKc/", "linkStatus": "已生成", "linkCheckedAt": 1789570539}, {"id": "n9Tu9seA", "start": 1789647300, "category": "马来西亚球队", "country": "Asia", "competition": "AFC Champions League 2", "home": "Phnom Penh Crown (Cam)", "away": "Kuching City FC (Mys)", "homeTeam": {"id": "65FkANOd", "slug": "phnom-penh-crown"}, "awayTeam": {"id": "EqLgadT1", "slug": "kuching-city-fc"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/n9Tu9seA/", "linkStatus": null, "linkCheckedAt": null}, {"id": "ObA4gvV1", "start": 1789758000, "category": "英超", "country": "England", "competition": "Premier League", "home": "Brentford", "away": "Chelsea", "homeTeam": {"id": "xYe7DwID", "slug": "brentford"}, "awayTeam": {"id": "4fGZN2oK", "slug": "chelsea"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/ObA4gvV1/", "linkStatus": null, "linkCheckedAt": null}, {"id": "4Sl9Mxal", "start": 1789817400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Tottenham", "away": "Aston Villa", "homeTeam": {"id": "UDg08Ohm", "slug": "tottenham"}, "awayTeam": {"id": "W00wmLO0", "slug": "aston-villa"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/4Sl9Mxal/", "linkStatus": null, "linkCheckedAt": null}, {"id": "fwZYZEdc", "start": 1789822800, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "DPMM", "away": "Kuala Lumpur City", "homeTeam": {"id": "K2cZL3G5", "slug": "dpmm"}, "awayTeam": {"id": "re2YdYmN", "slug": "kuala-lumpur-city"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/fwZYZEdc/", "linkStatus": null, "linkCheckedAt": null}, {"id": "WIpYn8Jq", "start": 1789822800, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Star City", "away": "Selangor", "homeTeam": {"id": "Ghf0ihRI", "slug": "star-city"}, "awayTeam": {"id": "drQ7lgso", "slug": "selangor"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/WIpYn8Jq/", "linkStatus": null, "linkCheckedAt": null}, {"id": "j52jHsN8", "start": 1789826400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Brighton", "away": "Arsenal", "homeTeam": {"id": "2XrRecc3", "slug": "brighton"}, "awayTeam": {"id": "hA1Zm19f", "slug": "arsenal"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/j52jHsN8/", "linkStatus": null, "linkCheckedAt": null}, {"id": "rDKcFLiL", "start": 1789826400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Everton", "away": "Ipswich", "homeTeam": {"id": "KluSTr9s", "slug": "everton"}, "awayTeam": {"id": "thqhB2MB", "slug": "ipswich"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/rDKcFLiL/", "linkStatus": null, "linkCheckedAt": null}, {"id": "nTaVTK6E", "start": 1789826400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Newcastle", "away": "Hull", "homeTeam": {"id": "p6ahwuwJ", "slug": "newcastle-utd"}, "awayTeam": {"id": "S66R0t75", "slug": "hull-city"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/nTaVTK6E/", "linkStatus": null, "linkCheckedAt": null}, {"id": "YqbwSbyR", "start": 1789835400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Nottingham", "away": "Coventry", "homeTeam": {"id": "UsushcZr", "slug": "nottingham"}, "awayTeam": {"id": "GOvB22xg", "slug": "coventry"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/YqbwSbyR/", "linkStatus": null, "linkCheckedAt": null}, {"id": "UB9wJWlg", "start": 1789894800, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Penang", "away": "Johor DT", "homeTeam": {"id": "YDrUEgY3", "slug": "penang"}, "awayTeam": {"id": "AVV6BGlb", "slug": "johor-dt"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/UB9wJWlg/", "linkStatus": null, "linkCheckedAt": null}, {"id": "8jfSVUpd", "start": 1789909200, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Kelantan City", "away": "Kuching City FC", "homeTeam": {"id": "SvnksBhJ", "slug": "kelantan-city"}, "awayTeam": {"id": "EqLgadT1", "slug": "kuching-city-fc"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/8jfSVUpd/", "linkStatus": null, "linkCheckedAt": null}, {"id": "joCde00k", "start": 1789909200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Bournemouth", "away": "Liverpool", "homeTeam": {"id": "OtpNdwrc", "slug": "bournemouth"}, "awayTeam": {"id": "lId4TMwf", "slug": "liverpool"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/joCde00k/", "linkStatus": null, "linkCheckedAt": null}, {"id": "n99y8wpe", "start": 1789909200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Leeds", "away": "Crystal Palace", "homeTeam": {"id": "tUxUbLR2", "slug": "leeds"}, "awayTeam": {"id": "AovF1Mia", "slug": "crystal-palace"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/n99y8wpe/", "linkStatus": null, "linkCheckedAt": null}, {"id": "fZCq6HE7", "start": 1789909200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Manchester City", "away": "Sunderland", "homeTeam": {"id": "Wtn9Stg0", "slug": "manchester-city"}, "awayTeam": {"id": "WSzc94ws", "slug": "sunderland"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/fZCq6HE7/", "linkStatus": null, "linkCheckedAt": null}, {"id": "vq6T9aFr", "start": 1789918200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Fulham", "away": "Manchester Utd", "homeTeam": {"id": "69ZiU2Om", "slug": "fulham"}, "awayTeam": {"id": "ppjDR086", "slug": "manchester-united"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/vq6T9aFr/", "linkStatus": null, "linkCheckedAt": null}], "generatedAt": 1789613581};
+const DATA = {"matches": [{"id": "jTnIKqKc", "start": 1789563600, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Terengganu", "away": "DPMM", "homeTeam": {"id": "25SbDxKo", "slug": "terengganu"}, "awayTeam": {"id": "K2cZL3G5", "slug": "dpmm"}, "state": "finished", "scoreHome": "1", "scoreAway": "3", "url": "https://www.flashscore.com/match/jTnIKqKc/", "linkStatus": "已生成", "linkCheckedAt": 1789570539}, {"id": "n9Tu9seA", "start": 1789647300, "category": "马来西亚球队", "country": "Asia", "competition": "AFC Champions League 2", "home": "Phnom Penh Crown (Cam)", "away": "Kuching City FC (Mys)", "homeTeam": {"id": "65FkANOd", "slug": "phnom-penh-crown"}, "awayTeam": {"id": "EqLgadT1", "slug": "kuching-city-fc"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/n9Tu9seA/", "linkStatus": null, "linkCheckedAt": null}, {"id": "ObA4gvV1", "start": 1789758000, "category": "英超", "country": "England", "competition": "Premier League", "home": "Brentford", "away": "Chelsea", "homeTeam": {"id": "xYe7DwID", "slug": "brentford"}, "awayTeam": {"id": "4fGZN2oK", "slug": "chelsea"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/ObA4gvV1/", "linkStatus": null, "linkCheckedAt": null}, {"id": "4Sl9Mxal", "start": 1789817400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Tottenham", "away": "Aston Villa", "homeTeam": {"id": "UDg08Ohm", "slug": "tottenham"}, "awayTeam": {"id": "W00wmLO0", "slug": "aston-villa"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/4Sl9Mxal/", "linkStatus": null, "linkCheckedAt": null}, {"id": "fwZYZEdc", "start": 1789822800, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "DPMM", "away": "Kuala Lumpur City", "homeTeam": {"id": "K2cZL3G5", "slug": "dpmm"}, "awayTeam": {"id": "re2YdYmN", "slug": "kuala-lumpur-city"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/fwZYZEdc/", "linkStatus": null, "linkCheckedAt": null}, {"id": "WIpYn8Jq", "start": 1789822800, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Star City", "away": "Selangor", "homeTeam": {"id": "Ghf0ihRI", "slug": "star-city"}, "awayTeam": {"id": "drQ7lgso", "slug": "selangor"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/WIpYn8Jq/", "linkStatus": null, "linkCheckedAt": null}, {"id": "j52jHsN8", "start": 1789826400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Brighton", "away": "Arsenal", "homeTeam": {"id": "2XrRecc3", "slug": "brighton"}, "awayTeam": {"id": "hA1Zm19f", "slug": "arsenal"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/j52jHsN8/", "linkStatus": null, "linkCheckedAt": null}, {"id": "rDKcFLiL", "start": 1789826400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Everton", "away": "Ipswich", "homeTeam": {"id": "KluSTr9s", "slug": "everton"}, "awayTeam": {"id": "thqhB2MB", "slug": "ipswich"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/rDKcFLiL/", "linkStatus": null, "linkCheckedAt": null}, {"id": "nTaVTK6E", "start": 1789826400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Newcastle", "away": "Hull", "homeTeam": {"id": "p6ahwuwJ", "slug": "newcastle-utd"}, "awayTeam": {"id": "S66R0t75", "slug": "hull-city"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/nTaVTK6E/", "linkStatus": null, "linkCheckedAt": null}, {"id": "YqbwSbyR", "start": 1789835400, "category": "英超", "country": "England", "competition": "Premier League", "home": "Nottingham", "away": "Coventry", "homeTeam": {"id": "UsushcZr", "slug": "nottingham"}, "awayTeam": {"id": "GOvB22xg", "slug": "coventry"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/YqbwSbyR/", "linkStatus": null, "linkCheckedAt": null}, {"id": "UB9wJWlg", "start": 1789894800, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Penang", "away": "Johor DT", "homeTeam": {"id": "YDrUEgY3", "slug": "penang"}, "awayTeam": {"id": "AVV6BGlb", "slug": "johor-dt"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/UB9wJWlg/", "linkStatus": null, "linkCheckedAt": null}, {"id": "8jfSVUpd", "start": 1789909200, "category": "马来西亚联赛", "country": "Malaysia", "competition": "FA Cup", "home": "Kelantan City", "away": "Kuching City FC", "homeTeam": {"id": "SvnksBhJ", "slug": "kelantan-city"}, "awayTeam": {"id": "EqLgadT1", "slug": "kuching-city-fc"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/8jfSVUpd/", "linkStatus": null, "linkCheckedAt": null}, {"id": "joCde00k", "start": 1789909200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Bournemouth", "away": "Liverpool", "homeTeam": {"id": "OtpNdwrc", "slug": "bournemouth"}, "awayTeam": {"id": "lId4TMwf", "slug": "liverpool"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/joCde00k/", "linkStatus": null, "linkCheckedAt": null}, {"id": "n99y8wpe", "start": 1789909200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Leeds", "away": "Crystal Palace", "homeTeam": {"id": "tUxUbLR2", "slug": "leeds"}, "awayTeam": {"id": "AovF1Mia", "slug": "crystal-palace"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/n99y8wpe/", "linkStatus": null, "linkCheckedAt": null}, {"id": "fZCq6HE7", "start": 1789909200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Manchester City", "away": "Sunderland", "homeTeam": {"id": "Wtn9Stg0", "slug": "manchester-city"}, "awayTeam": {"id": "WSzc94ws", "slug": "sunderland"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/fZCq6HE7/", "linkStatus": null, "linkCheckedAt": null}, {"id": "vq6T9aFr", "start": 1789918200, "category": "英超", "country": "England", "competition": "Premier League", "home": "Fulham", "away": "Manchester Utd", "homeTeam": {"id": "69ZiU2Om", "slug": "fulham"}, "awayTeam": {"id": "ppjDR086", "slug": "manchester-united"}, "state": "scheduled", "scoreHome": null, "scoreAway": null, "url": "https://www.flashscore.com/match/vq6T9aFr/", "linkStatus": null, "linkCheckedAt": null}], "generatedAt": 1789620038};
 const CATS = ["英超", "欧冠", "马来西亚联赛", "马来西亚球队"];
 const LINK = { "已生成": ["ok", "已生成"], "未生成": ["wait", "未生成"] };
 const WEEK = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
 
 const REPO = "ejia3131-netizen/football-schedule";
 const CONFIRM_PATH = "confirmed.json";
+const CHANNELS_PATH = "channels.json";
+const CLASH_MINUTES = 135;  // a match plus the 15 minutes the live stream opens early
 
 let filter = "全部";
 let onlyLinked = false;
@@ -197,6 +207,8 @@ try {
 // Confirmed matches live in confirmed.json in the GitHub repo so every device sees the same list.
 let confirmed = {};
 let confirmedSha = null;
+let channels = [];  // live channels picked in the Telegram settings on the Mac
+let clashes = {};
 let pendingId = null;
 
 const pad = n => String(n).padStart(2, "0");
@@ -209,7 +221,23 @@ function tzLabel() {
   return `GMT${off >= 0 ? "+" : ""}${off}`;
 }
 
+function findClashes() {
+  const byChannel = {};
+  for (const [id, c] of Object.entries(confirmed)) if (c.channel) (byChannel[c.channel] ||= []).push({ id, ...c });
+  const out = {};
+  for (const list of Object.values(byChannel)) {
+    list.sort((a, b) => a.start - b.start);
+    for (let i = 0; i < list.length; i++)
+      for (let j = i + 1; j < list.length && list[j].start - list[i].start < CLASH_MINUTES * 60; j++) {
+        (out[list[i].id] ||= []).push(list[j].match);
+        (out[list[j].id] ||= []).push(list[i].match);
+      }
+  }
+  return out;
+}
+
 function render() {
+  clashes = findClashes();
   const matches = (DATA && DATA.matches) || [];
   const gen = DATA ? new Date(DATA.generatedAt * 1000) : null;
   document.getElementById("updated").innerHTML = gen
@@ -277,8 +305,25 @@ function row(m) {
       <div class="state${m.state === "live" ? " live" : ""}">${state}</div>
       <div class="link ${cls}" title="${m.linkCheckedAt ? "最后检查 " + hm(new Date(m.linkCheckedAt * 1000)) : "PandaScore 尚未列出这场比赛"}">${label}</div>
       <button class="confirm" type="button" data-id="${esc(m.id)}" aria-pressed="${!!confirmed[m.id]}"${pendingId === m.id ? " disabled" : ""}>${confirmed[m.id] ? "✓ 已确认" : "确认要播"}</button>
+      ${channelPicker(m)}
       ${streams(m)}
     </div>`;
+}
+
+function channelPicker(m) {
+  const c = confirmed[m.id];
+  if (!c || m.state === "finished") return "";
+  if (!channels.length) return `<div class="chan"><span class="hint">还没有直播频道：在 Mac 上打开「Telegram 发帖设置」选择可以直播的频道。</span></div>`;
+  const known = channels.some(ch => ch.key === c.channel);
+  const options = [`<option value="">不自动开播</option>`,
+    ...channels.map(ch => `<option value="${esc(ch.key)}"${ch.key === c.channel ? " selected" : ""}>${esc(ch.title)}</option>`),
+    ...(c.channel && !known ? [`<option value="${esc(c.channel)}" selected>（已移除的频道）</option>`] : [])];
+  const clash = clashes[m.id];
+  const note = clash ? `<span class="warn">⚠ 和 ${esc(clash.join("、"))} 撞时间：同一个频道先播较早开赛的，这场要等上一场结束才开播</span>`
+    : c.channel ? (known ? `<span class="hint">开赛前 15 分钟、信号生成后自动开播</span>` : `<span class="warn">这个频道已不在直播频道列表里，不会开播</span>`)
+    : "";
+  return `<div class="chan"><label for="chan-${esc(m.id)}">直播频道</label>
+    <select id="chan-${esc(m.id)}" data-id="${esc(m.id)}"${!token || pendingId === m.id ? " disabled" : ""}>${options.join("")}</select>${note}</div>`;
 }
 
 function streams(m) {
@@ -324,16 +369,21 @@ function syncIdle() {
     : `确认记录只读 · <button type="button" id="setup-token">在这台设备开启确认功能</button>`);
 }
 
-async function loadConfirmed() {
+async function loadRepoFile(path) {
   const headers = { Accept: "application/vnd.github+json" };
   if (token) headers.Authorization = `Bearer ${token}`;
-  const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${CONFIRM_PATH}?ref=main&t=${Date.now()}`, { headers, cache: "no-store" });
-  if (r.status === 404) { confirmed = {}; confirmedSha = null; return; }
+  const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}?ref=main&t=${Date.now()}`, { headers, cache: "no-store" });
+  if (r.status === 404) return null;
   if (r.status === 401) throw Object.assign(new Error("token"), { code: 401 });
   if (!r.ok) throw new Error(`GitHub ${r.status}`);
-  const j = await r.json();
-  confirmedSha = j.sha;
-  confirmed = JSON.parse(b64decode(j.content) || "{}");
+  return r.json();
+}
+
+async function loadConfirmed() {
+  const [j, ch] = await Promise.all([loadRepoFile(CONFIRM_PATH), loadRepoFile(CHANNELS_PATH).catch(() => null)]);
+  confirmedSha = j ? j.sha : null;
+  confirmed = j ? JSON.parse(b64decode(j.content) || "{}") : {};
+  if (ch) channels = JSON.parse(b64decode(ch.content) || "[]");
 }
 
 async function saveConfirmed(message) {
@@ -352,26 +402,21 @@ async function saveConfirmed(message) {
   confirmedSha = (await r.json()).content.sha;
 }
 
-async function toggleConfirm(id) {
-  const m = DATA.matches.find(x => x.id === id);
+// apply() changes `confirmed` in place and must give the same result when run again on a reloaded list.
+async function change(id, message, apply) {
   pendingId = id;
   render();
   setSync("正在保存…");
-  const apply = () => {
-    if (confirmed[id]) delete confirmed[id];
-    else confirmed[id] = { match: `${m.home} vs ${m.away}`, competition: m.competition, start: m.start, confirmedAt: Math.floor(Date.now() / 1000) };
-  };
-  const wanted = !confirmed[id];
   try {
     apply();
     try {
-      await saveConfirmed(`${wanted ? "Confirm" : "Unconfirm"} ${m.home} vs ${m.away}`);
+      await saveConfirmed(message);
     } catch (e) {
       if (e.code !== 409) throw e;
       // Another device saved in between: reload its list, reapply this change, save once more.
       await loadConfirmed();
-      if (!!confirmed[id] !== wanted) apply();
-      await saveConfirmed(`${wanted ? "Confirm" : "Unconfirm"} ${m.home} vs ${m.away}`);
+      apply();
+      await saveConfirmed(message);
     }
     pendingId = null;
     render();
@@ -383,6 +428,24 @@ async function toggleConfirm(id) {
     if (e.code === 401) setSync('保存失败：GitHub token 无效或没有写入权限。<button type="button" id="setup-token">重新设置</button>', true);
     else setSync(`保存失败（${esc(e.message)}），请检查网络后再点一次。`, true);
   }
+}
+
+function toggleConfirm(id) {
+  const m = DATA.matches.find(x => x.id === id);
+  const wanted = !confirmed[id];
+  return change(id, `${wanted ? "Confirm" : "Unconfirm"} ${m.home} vs ${m.away}`, () => {
+    if (!wanted) delete confirmed[id];
+    else if (!confirmed[id]) confirmed[id] = { match: `${m.home} vs ${m.away}`, competition: m.competition, start: m.start, confirmedAt: Math.floor(Date.now() / 1000) };
+  });
+}
+
+function setChannel(id, key) {
+  const m = DATA.matches.find(x => x.id === id);
+  const title = (channels.find(ch => ch.key === key) || {}).title || "none";
+  return change(id, `Live channel for ${m.home} vs ${m.away}: ${title}`, () => {
+    if (!confirmed[id]) return;
+    if (key) confirmed[id].channel = key; else delete confirmed[id].channel;
+  });
 }
 
 const dialog = document.getElementById("token-dialog");
@@ -408,6 +471,11 @@ document.getElementById("sync").addEventListener("click", e => {
     try { localStorage.removeItem("fs-gh-token"); } catch (e) {}
     syncIdle();
   }
+});
+
+document.getElementById("days").addEventListener("change", e => {
+  const sel = e.target.closest(".chan select");
+  if (sel && token) setChannel(sel.dataset.id, sel.value);
 });
 
 document.getElementById("days").addEventListener("click", e => {
