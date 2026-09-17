@@ -88,5 +88,11 @@
   "start": 1789909200,
   "confirmedAt": 1789683716,
   "channel": "channel:4375685324"
+ },
+ "joCde00k": {
+  "match": "Bournemouth vs Liverpool",
+  "competition": "Premier League",
+  "start": 1789909200,
+  "confirmedAt": 1789683723
  }
 }
