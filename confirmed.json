@@ -60,5 +60,11 @@
   "start": 1789671600,
   "confirmedAt": 1789629292,
   "channel": "channel:4375685324"
+ },
+ "dneRd9pg": {
+  "match": "Levski Sofia vs Salzburg",
+  "competition": "Europa League - League phase",
+  "start": 1789663500,
+  "confirmedAt": 1789651086
  }
 }
