@@ -95,5 +95,11 @@
   "start": 1789909200,
   "confirmedAt": 1789683723,
   "channel": "channel:4268202100"
+ },
+ "fZCq6HE7": {
+  "match": "Manchester City vs Sunderland",
+  "competition": "Premier League",
+  "start": 1789909200,
+  "confirmedAt": 1789683771
  }
 }
