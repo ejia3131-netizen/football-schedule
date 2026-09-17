@@ -1,10 +1,4 @@
 {
- "WIpYn8Jq": {
-  "match": "Star City vs Selangor",
-  "competition": "FA Cup",
-  "start": 1789822800,
-  "confirmedAt": 1789567046
- },
  "ObA4gvV1": {
   "match": "Brentford vs Chelsea",
   "competition": "Premier League",
@@ -24,11 +18,5 @@
   "competition": "FA Cup",
   "start": 1789563600,
   "confirmedAt": 1789567116
- },
- "fwZYZEdc": {
-  "match": "DPMM vs Kuala Lumpur City",
-  "competition": "FA Cup",
-  "start": 1789822800,
-  "confirmedAt": 1789621010
  }
 }
