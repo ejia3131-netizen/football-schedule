@@ -151,13 +151,5 @@
   "start": 1790422200,
   "confirmedAt": 1789962204,
   "channel": "channel:4333906444"
- },
- "bwf:Asian Games Teams": {
-  "sport": "badminton",
-  "tournament": "Asian Games Teams",
-  "start": 1789864200,
-  "until": 1790056800,
-  "confirmedAt": 1789962796,
-  "channel": "channel:4333906444"
  }
 }
