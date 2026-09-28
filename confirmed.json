@@ -193,5 +193,13 @@
   "start": 1790681400,
   "confirmedAt": 1790560425,
   "channel": "channel:4333906444"
+ },
+ "EcQYMToS": {
+  "sport": "badminton",
+  "match": "Carnando L. R./Marthin D. vs Liang W. K./Wang C.",
+  "tournament": "Asian Games",
+  "event": "Others - Doubles Men",
+  "start": 1790647200,
+  "confirmedAt": 1790576414
  }
 }
