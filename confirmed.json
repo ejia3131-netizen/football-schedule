@@ -226,5 +226,13 @@
   "event": "Others - Women",
   "start": 1790652000,
   "confirmedAt": 1790607755
+ },
+ "EZPm6aN9": {
+  "sport": "badminton",
+  "match": "Loh K. Y. vs Vitidsarn K.",
+  "tournament": "Asian Games",
+  "event": "Others - Men",
+  "start": 1790656800,
+  "confirmedAt": 1790607758
  }
 }
