@@ -315,5 +315,13 @@
   "channel_hint": "beIN Sports 1",
   "start": 1790927700,
   "confirmedAt": 1790849125
+ },
+ "f1:1790932500:The-F1-Show": {
+  "sport": "f1",
+  "gp": "Gulf Air Bahrain Grand Prix In Malaysia",
+  "session": "The F1 Show",
+  "channel_hint": "beIN Sports 1",
+  "start": 1790932500,
+  "confirmedAt": 1790849127
  }
 }
