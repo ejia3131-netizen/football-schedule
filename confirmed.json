@@ -306,7 +306,8 @@
   "session": "Practice 1",
   "channel_hint": "beIN Sports 1",
   "start": 1790915100,
-  "confirmedAt": 1790849122
+  "confirmedAt": 1790849122,
+  "channel": "channel:4333906444"
  },
  "f1:1790927700:Practice": {
   "sport": "f1",
