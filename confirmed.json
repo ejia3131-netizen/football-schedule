@@ -359,7 +359,8 @@
   "session": "Race",
   "channel_hint": "beIN Sports 1",
   "start": 1791096900,
-  "confirmedAt": 1791073504
+  "confirmedAt": 1791073504,
+  "channel": "channel:4333906444"
  },
  "f1:1791104400:Chequered-Flag": {
   "sport": "f1",
