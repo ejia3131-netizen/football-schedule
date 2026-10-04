@@ -343,5 +343,29 @@
   "start": 1791536400,
   "confirmedAt": 1790906999,
   "channel": "channel:4333906444"
+ },
+ "f1:1791091800:Grand-Prix-Sunday": {
+  "sport": "f1",
+  "gp": "Formula 1",
+  "session": "Grand Prix Sunday",
+  "channel_hint": "beIN Sports 1",
+  "start": 1791091800,
+  "confirmedAt": 1791073504
+ },
+ "f1:1791096900:Race": {
+  "sport": "f1",
+  "gp": "Formula 1",
+  "session": "Race",
+  "channel_hint": "beIN Sports 1",
+  "start": 1791096900,
+  "confirmedAt": 1791073504
+ },
+ "f1:1791104400:Chequered-Flag": {
+  "sport": "f1",
+  "gp": "Formula 1",
+  "session": "Chequered Flag",
+  "channel_hint": "beIN Sports 1",
+  "start": 1791104400,
+  "confirmedAt": 1791073504
  }
 }
