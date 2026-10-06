@@ -61,6 +61,14 @@
   "confirmedAt": 1791260442,
   "channel": "channel:4407974810"
  },
+ "1552435": {
+  "sport": "badminton",
+  "match": "KOLDING/WERGE vs DUNN/MACPHERSON",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Mixed Doubles",
+  "start": 1791291600,
+  "confirmedAt": 1791264097
+ },
  "1552436": {
   "sport": "badminton",
   "match": "MANNEPALLI vs CARRAGGI",
@@ -123,6 +131,14 @@
   "start": 1791268800,
   "confirmedAt": 1791260445,
   "channel": "channel:3681698340"
+ },
+ "1552470": {
+  "sport": "badminton",
+  "match": "CHRISTOPHERSEN vs CHALIHA",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Women's Singles",
+  "start": 1791291600,
+  "confirmedAt": 1791264097
  },
  "1552473": {
   "sport": "badminton",
