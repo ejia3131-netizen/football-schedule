@@ -1606,5 +1606,11 @@
   "competition": "Serie A",
   "start": 1791637200,
   "confirmedAt": 1791446353
+ },
+ "nyUApYI6": {
+  "match": "Augsburg vs Bayern Munich",
+  "competition": "Bundesliga",
+  "start": 1791639000,
+  "confirmedAt": 1791446355
  }
 }
