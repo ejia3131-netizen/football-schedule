@@ -1586,7 +1586,8 @@
   "match": "Dortmund vs Werder Bremen",
   "competition": "Bundesliga",
   "start": 1791570600,
-  "confirmedAt": 1791446343
+  "confirmedAt": 1791446343,
+  "channel": "channel:4333906444"
  },
  "zsIUF5yo": {
   "match": "Rayo Vallecano vs Ath Bilbao",
