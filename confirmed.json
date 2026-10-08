@@ -1635,5 +1635,11 @@
   "start": 1791547200,
   "confirmedAt": 1791464495,
   "channel": "channel:4333906444"
+ },
+ "6k8N36mo": {
+  "match": "Genoa vs Fiorentina",
+  "competition": "Serie A",
+  "start": 1791637200,
+  "confirmedAt": 1791464555
  }
 }
