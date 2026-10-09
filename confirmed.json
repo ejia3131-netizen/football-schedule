@@ -1840,5 +1840,11 @@
   "start": 1791723600,
   "confirmedAt": 1791557117,
   "channel": "channel:4375685324"
+ },
+ "UZ96Io4U": {
+  "match": "Ipswich vs Fulham",
+  "competition": "Premier League",
+  "start": 1791640800,
+  "confirmedAt": 1791588962
  }
 }
