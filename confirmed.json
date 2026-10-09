@@ -187,6 +187,38 @@
   "confirmedAt": 1791327559,
   "channel": "channel:4407974810"
  },
+ "1552392": {
+  "sport": "badminton",
+  "match": "JIANG/WEI vs YE/CHAN",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Mixed Doubles",
+  "start": 1791540000,
+  "confirmedAt": 1791509076
+ },
+ "1552393": {
+  "sport": "badminton",
+  "match": "FENG/HUANG vs KARLBORG/SJOO",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Mixed Doubles",
+  "start": 1791540600,
+  "confirmedAt": 1791509076
+ },
+ "1552394": {
+  "sport": "badminton",
+  "match": "GAO/WU vs KOGA/SAITO",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Mixed Doubles",
+  "start": 1791543600,
+  "confirmedAt": 1791509076
+ },
+ "1552395": {
+  "sport": "badminton",
+  "match": "LIU/HSU vs ZHU/LI",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Mixed Doubles",
+  "start": 1791540300,
+  "confirmedAt": 1791509076
+ },
  "1552396": {
   "sport": "badminton",
   "match": "FLYNN/FLYNN vs MICHALSKI/SCHULZ",
@@ -493,6 +525,14 @@
   "confirmedAt": 1791260449,
   "channel": "channel:4407974810"
  },
+ "1552439": {
+  "sport": "badminton",
+  "match": "LAI/TSAI vs NEBEL/SØBY",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Men's Doubles",
+  "start": 1791552300,
+  "confirmedAt": 1791509076
+ },
  "1552440": {
   "sport": "badminton",
   "match": "BUTLER/JONES vs KUMAGAI/NISHI",
@@ -511,6 +551,14 @@
   "confirmedAt": 1791260680,
   "channel": "channel:3356970387"
  },
+ "1552442": {
+  "sport": "badminton",
+  "match": "SUKPHUN/TEERARATSAKUL vs TAI/YAP",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Men's Doubles",
+  "start": 1791558000,
+  "confirmedAt": 1791509076
+ },
  "1552443": {
   "sport": "badminton",
   "match": "MOLIN/SVENSSON vs MELLERI/NYQVIST",
@@ -519,6 +567,14 @@
   "start": 1791277800,
   "confirmedAt": 1791260673,
   "channel": "channel:3681698340"
+ },
+ "1552444": {
+  "sport": "badminton",
+  "match": "MAIO/VILLEGER vs HOKI/KOBAYASHI",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Men's Doubles",
+  "start": 1791555600,
+  "confirmedAt": 1791509076
  },
  "1552445": {
   "sport": "badminton",
@@ -708,6 +764,14 @@
   "start": 1791268800,
   "confirmedAt": 1791260445,
   "channel": "channel:3681698340"
+ },
+ "1552466": {
+  "sport": "badminton",
+  "match": "KJÆR/KJÆR vs GARAGA/KRISHNAMURTHY ROY",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Men's Doubles",
+  "start": 1791561000,
+  "confirmedAt": 1791509076
  },
  "1552468": {
   "sport": "badminton",
@@ -934,6 +998,22 @@
   "confirmedAt": 1791260462,
   "channel": "channel:4407974810"
  },
+ "1552503": {
+  "sport": "badminton",
+  "match": "CHOCHUWONG vs CHRISTOPHERSEN",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Women's Singles",
+  "start": 1791546300,
+  "confirmedAt": 1791509076
+ },
+ "1552504": {
+  "sport": "badminton",
+  "match": "INTANON vs PUSARLA",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Women's Singles",
+  "start": 1791555000,
+  "confirmedAt": 1791509076
+ },
  "1552505": {
   "sport": "badminton",
   "match": "LIU/HSU vs SØBY/RØJKJÆR",
@@ -942,6 +1022,22 @@
   "start": 1791282600,
   "confirmedAt": 1791260697,
   "channel": "channel:4407974810"
+ },
+ "1552506": {
+  "sport": "badminton",
+  "match": "OKUHARA vs MIYAZAKI",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Women's Singles",
+  "start": 1791543300,
+  "confirmedAt": 1791509076
+ },
+ "1552507": {
+  "sport": "badminton",
+  "match": "BLICHFELDT vs HAN",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Women's Singles",
+  "start": 1791549000,
+  "confirmedAt": 1791509076
  },
  "1552508": {
   "sport": "badminton",
@@ -1006,6 +1102,14 @@
   "confirmedAt": 1791424551,
   "channel": "channel:4407974810"
  },
+ "1552516": {
+  "sport": "badminton",
+  "match": "CHEN/LUO vs HIROTA/SAKURAMOTO",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Women's Doubles",
+  "start": 1791546000,
+  "confirmedAt": 1791509076
+ },
  "1552517": {
   "sport": "badminton",
   "match": "NGUYEN vs BLICHFELDT",
@@ -1015,6 +1119,14 @@
   "confirmedAt": 1791424551,
   "channel": "channel:3681698340"
  },
+ "1552518": {
+  "sport": "badminton",
+  "match": "BAO/CAO vs STOEVA/STOEVA",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Women's Doubles",
+  "start": 1791546600,
+  "confirmedAt": 1791509076
+ },
  "1552519": {
   "sport": "badminton",
   "match": "POPOV vs TANAKA",
@@ -1023,6 +1135,14 @@
   "start": 1791455400,
   "confirmedAt": 1791424551,
   "channel": "channel:4407974810"
+ },
+ "1552520": {
+  "sport": "badminton",
+  "match": "LUO/WANG vs HSU/SUNG",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Women's Doubles",
+  "start": 1791549600,
+  "confirmedAt": 1791509076
  },
  "1552521": {
   "sport": "badminton",
@@ -1041,6 +1161,14 @@
   "start": 1791454800,
   "confirmedAt": 1791424551,
   "channel": "channel:3681698340"
+ },
+ "1552523": {
+  "sport": "badminton",
+  "match": "LIN/YANG vs HSU/LIN",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Women's Doubles",
+  "start": 1791555300,
+  "confirmedAt": 1791509076
  },
  "1552524": {
   "sport": "badminton",
@@ -1078,6 +1206,14 @@
   "confirmedAt": 1791424551,
   "channel": "channel:4407974810"
  },
+ "1552530": {
+  "sport": "badminton",
+  "match": "VITIDSARN vs TANAKA",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Men's Singles",
+  "start": 1791552600,
+  "confirmedAt": 1791509076
+ },
  "1552531": {
   "sport": "badminton",
   "match": "HSU/SUNG vs CHANG/YANG",
@@ -1086,6 +1222,22 @@
   "start": 1791465600,
   "confirmedAt": 1791424551,
   "channel": "channel:4407974810"
+ },
+ "1552533": {
+  "sport": "badminton",
+  "match": "HU vs ANTONSEN",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Men's Singles",
+  "start": 1791552000,
+  "confirmedAt": 1791509076
+ },
+ "1552534": {
+  "sport": "badminton",
+  "match": "CHOU vs WATANABE",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Men's Singles",
+  "start": 1791549300,
+  "confirmedAt": 1791509076
  },
  "1552535": {
   "sport": "badminton",
@@ -1113,6 +1265,14 @@
   "start": 1791361800,
   "confirmedAt": 1791327559,
   "channel": "channel:3681698340"
+ },
+ "1552538": {
+  "sport": "badminton",
+  "match": "LEE vs POPOV",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Men's Singles",
+  "start": 1791543000,
+  "confirmedAt": 1791509076
  },
  "1552539": {
   "sport": "badminton",
