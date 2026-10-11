@@ -351,6 +351,14 @@
   "confirmedAt": 1791327559,
   "channel": "channel:4407974810"
  },
+ "1552408": {
+  "sport": "badminton",
+  "match": "JIANG/WEI vs GAO/WU",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Mixed Doubles",
+  "start": 1791705600,
+  "confirmedAt": 1791678489
+ },
  "1552409": {
   "sport": "badminton",
   "match": "YE/CHAN vs MAIO/PALERMO",
@@ -558,6 +566,14 @@
   "confirmedAt": 1791588985,
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/watch/channel/415SnQt4cuQftXr3P3foN4"
+ },
+ "1552438": {
+  "sport": "badminton",
+  "match": "TAI/YAP vs LAI/TSAI",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Men's Doubles",
+  "start": 1791717600,
+  "confirmedAt": 1791678489
  },
  "1552439": {
   "sport": "badminton",
@@ -992,6 +1008,14 @@
   "confirmedAt": 1791264586,
   "channel": "channel:3356970387"
  },
+ "1552492": {
+  "sport": "badminton",
+  "match": "INTANON vs BLICHFELDT",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Women's Singles",
+  "start": 1791708600,
+  "confirmedAt": 1791678489
+ },
  "1552493": {
   "sport": "badminton",
   "match": "BAO/CAO vs HSU/LIN",
@@ -1001,6 +1025,14 @@
   "confirmedAt": 1791588985,
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/watch/channel/415SnQt4cuQftXr3P3foN4"
+ },
+ "1552494": {
+  "sport": "badminton",
+  "match": "CHEN/LUO vs HSU/LIN",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Women's Doubles",
+  "start": 1791714600,
+  "confirmedAt": 1791678489
  },
  "1552495": {
   "sport": "badminton",
@@ -1302,6 +1334,14 @@
   "start": 1791458100,
   "confirmedAt": 1791424551,
   "channel": "channel:3356970387"
+ },
+ "1552528": {
+  "sport": "badminton",
+  "match": "TANAKA vs ANTONSEN",
+  "tournament": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+  "event": "Men's Singles",
+  "start": 1791711600,
+  "confirmedAt": 1791678489
  },
  "1552529": {
   "sport": "badminton",
