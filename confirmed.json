@@ -1655,7 +1655,8 @@
   "tournament": "VICTOR Denmark Open 2026",
   "event": "Mixed Doubles",
   "start": 1791859200,
-  "confirmedAt": 1791854558
+  "confirmedAt": 1791854558,
+  "channel": "channel:3681698340"
  },
  "1556155": {
   "sport": "badminton",
