@@ -3247,7 +3247,8 @@
   "match": "Manchester City vs Ipswich",
   "competition": "Premier League",
   "start": 1792245600,
-  "confirmedAt": 1792034463
+  "confirmedAt": 1792034463,
+  "channel": "channel:4333906444"
  },
  "f3OwnQ6N": {
   "match": "Strasbourg vs PSG",
