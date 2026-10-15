@@ -1471,6 +1471,14 @@
   "confirmedAt": 1791260431,
   "channel": "channel:3681698340"
  },
+ "1556058": {
+  "sport": "badminton",
+  "match": "CHOU vs WATANABE",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Singles",
+  "start": 1792050600,
+  "confirmedAt": 1792028130
+ },
  "1556059": {
   "sport": "badminton",
   "match": "POPOV vs OKIMOTO",
@@ -1489,6 +1497,14 @@
   "confirmedAt": 1791854558,
   "channel": "channel:3356970387"
  },
+ "1556061": {
+  "sport": "badminton",
+  "match": "HIROTA/SAKURAMOTO vs HIROKAMI/HOBARA",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Doubles",
+  "start": 1792082700,
+  "confirmedAt": 1792028130
+ },
  "1556062": {
   "sport": "badminton",
   "match": "AN vs BUHROVA",
@@ -1497,6 +1513,22 @@
   "start": 1791879600,
   "confirmedAt": 1791854558,
   "channel": "channel:3356970387"
+ },
+ "1556063": {
+  "sport": "badminton",
+  "match": "LAM/LEE vs LUO/WANG",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Doubles",
+  "start": 1792077600,
+  "confirmedAt": 1792028130
+ },
+ "1556064": {
+  "sport": "badminton",
+  "match": "TEERARATSAKUL vs POPOV",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Singles",
+  "start": 1792065600,
+  "confirmedAt": 1792028130
  },
  "1556065": {
   "sport": "badminton",
@@ -1533,6 +1565,30 @@
   "start": 1791979200,
   "confirmedAt": 1791948369,
   "channel": "channel:4407974810"
+ },
+ "1556078": {
+  "sport": "badminton",
+  "match": "YEUNG/YEUNG vs TAN/THINAAH",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Doubles",
+  "start": 1792068600,
+  "confirmedAt": 1792028130
+ },
+ "1556079": {
+  "sport": "badminton",
+  "match": "GEMKE vs NG",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Singles",
+  "start": 1792080600,
+  "confirmedAt": 1792028130
+ },
+ "1556080": {
+  "sport": "badminton",
+  "match": "LAI vs TEH",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Singles",
+  "start": 1792071600,
+  "confirmedAt": 1792028130
  },
  "1556081": {
   "sport": "badminton",
@@ -1606,6 +1662,22 @@
   "confirmedAt": 1791948369,
   "channel": "channel:3681698340"
  },
+ "1556097": {
+  "sport": "badminton",
+  "match": "LANIER vs KIDAMBI",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Singles",
+  "start": 1792059600,
+  "confirmedAt": 1792028130
+ },
+ "1556098": {
+  "sport": "badminton",
+  "match": "GUNAWAN vs ANTONSEN",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Singles",
+  "start": 1792074600,
+  "confirmedAt": 1792028130
+ },
  "1556099": {
   "sport": "badminton",
   "match": "CHOU vs SEN",
@@ -1614,6 +1686,22 @@
   "start": 1791862200,
   "confirmedAt": 1791854558,
   "channel": "channel:3681698340"
+ },
+ "1556100": {
+  "sport": "badminton",
+  "match": "FARHAN vs CHRISTIE",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Singles",
+  "start": 1792079700,
+  "confirmedAt": 1792028130
+ },
+ "1556101": {
+  "sport": "badminton",
+  "match": "OKIMOTO vs NARAOKA",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Singles",
+  "start": 1792064700,
+  "confirmedAt": 1792028130
  },
  "1556102": {
   "sport": "badminton",
@@ -1632,6 +1720,46 @@
   "start": 1791988200,
   "confirmedAt": 1791948369,
   "channel": "channel:4407974810"
+ },
+ "1556104": {
+  "sport": "badminton",
+  "match": "MIYAZAKI vs AKECHI",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Singles",
+  "start": 1792057200,
+  "confirmedAt": 1792028130
+ },
+ "1556105": {
+  "sport": "badminton",
+  "match": "OKUHARA vs CHIU",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Singles",
+  "start": 1792053600,
+  "confirmedAt": 1792028130
+ },
+ "1556106": {
+  "sport": "badminton",
+  "match": "GUNJI vs CHOCHUWONG",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Singles",
+  "start": 1792062600,
+  "confirmedAt": 1792028130
+ },
+ "1556107": {
+  "sport": "badminton",
+  "match": "CHALIHA vs YAMAGUCHI",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Singles",
+  "start": 1792067700,
+  "confirmedAt": 1792028130
+ },
+ "1556109": {
+  "sport": "badminton",
+  "match": "AN vs CHRISTOPHERSEN",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Singles",
+  "start": 1792077600,
+  "confirmedAt": 1792028130
  },
  "1556110": {
   "sport": "badminton",
@@ -1776,6 +1904,30 @@
   "start": 1791961200,
   "confirmedAt": 1791948369,
   "channel": "channel:3681698340"
+ },
+ "1556130": {
+  "sport": "badminton",
+  "match": "LI vs SHARMA",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Singles",
+  "start": 1792080600,
+  "confirmedAt": 1792028130
+ },
+ "1556131": {
+  "sport": "badminton",
+  "match": "HUANG vs WARDANI",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Singles",
+  "start": 1792047600,
+  "confirmedAt": 1792028130
+ },
+ "1556132": {
+  "sport": "badminton",
+  "match": "HAN vs WANG",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Singles",
+  "start": 1792048200,
+  "confirmedAt": 1792028130
  },
  "1556133": {
   "sport": "badminton",
@@ -1930,6 +2082,22 @@
   "confirmedAt": 1791948369,
   "channel": "channel:4407974810"
  },
+ "1556152": {
+  "sport": "badminton",
+  "match": "ISHIKAWA/KAWAZOE vs BAO/CAO",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Doubles",
+  "start": 1792063200,
+  "confirmedAt": 1792028130
+ },
+ "1556154": {
+  "sport": "badminton",
+  "match": "NAKADE/TAKAHASHI vs LUI/TSANG",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Doubles",
+  "start": 1792083600,
+  "confirmedAt": 1792028130
+ },
  "1556155": {
   "sport": "badminton",
   "match": "HIROKAMI/HOBARA vs HARRIS/VAN LEEUWEN",
@@ -1956,6 +2124,22 @@
   "start": 1791976200,
   "confirmedAt": 1791948369,
   "channel": "channel:3356970387"
+ },
+ "1556158": {
+  "sport": "badminton",
+  "match": "JOLLY/PULLELA vs ROSE/SETIANINGRUM",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Doubles",
+  "start": 1792062600,
+  "confirmedAt": 1792028130
+ },
+ "1556159": {
+  "sport": "badminton",
+  "match": "KIM/LEE vs STOEVA/STOEVA",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Doubles",
+  "start": 1792053600,
+  "confirmedAt": 1792028130
  },
  "1556160": {
   "sport": "badminton",
@@ -2011,6 +2195,22 @@
   "confirmedAt": 1791948369,
   "channel": "channel:4407974810"
  },
+ "1556167": {
+  "sport": "badminton",
+  "match": "KJÆR/KJÆR vs ALFIAN/FIKRI",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Doubles",
+  "start": 1792068600,
+  "confirmedAt": 1792028130
+ },
+ "1556169": {
+  "sport": "badminton",
+  "match": "SUKPHUN/TEERARATSAKUL vs HE/REN",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Doubles",
+  "start": 1792059600,
+  "confirmedAt": 1792028130
+ },
  "1556171": {
   "sport": "badminton",
   "match": "LI vs WANG",
@@ -2020,6 +2220,14 @@
   "confirmedAt": 1791948369,
   "channel": "channel:3356970387"
  },
+ "1556172": {
+  "sport": "badminton",
+  "match": "OKAMURA/YAMASHITA vs HU/LIN",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Doubles",
+  "start": 1792060200,
+  "confirmedAt": 1792028130
+ },
  "1556174": {
   "sport": "badminton",
   "match": "SIHAG vs CHOCHUWONG",
@@ -2028,6 +2236,14 @@
   "start": 1791994200,
   "confirmedAt": 1791948369,
   "channel": "channel:3356970387"
+ },
+ "1556175": {
+  "sport": "badminton",
+  "match": "CHIA/SOH vs TAI/YAP",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Doubles",
+  "start": 1792054200,
+  "confirmedAt": 1792028130
  },
  "1556178": {
   "sport": "badminton",
@@ -2083,6 +2299,14 @@
   "confirmedAt": 1791948369,
   "channel": "channel:3681698340"
  },
+ "1556185": {
+  "sport": "badminton",
+  "match": "LANE/VENDY vs KUMAGAI/NISHI",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Doubles",
+  "start": 1792047600,
+  "confirmedAt": 1792028130
+ },
  "1556186": {
   "sport": "badminton",
   "match": "AZRIYN/TAN vs GOH/IZZUDDIN",
@@ -2100,6 +2324,14 @@
   "start": 1791867600,
   "confirmedAt": 1791854558,
   "channel": "channel:3681698340"
+ },
+ "1556188": {
+  "sport": "badminton",
+  "match": "KIM/SEO vs CHEN/LIU",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Doubles",
+  "start": 1792050600,
+  "confirmedAt": 1792028130
  },
  "1556189": {
   "sport": "badminton",
@@ -2146,6 +2378,38 @@
   "confirmedAt": 1791854558,
   "channel": "channel:3681698340"
  },
+ "1556198": {
+  "sport": "badminton",
+  "match": "YANG/HU vs JIANG/WEI",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1792083600,
+  "confirmedAt": 1792028130
+ },
+ "1556199": {
+  "sport": "badminton",
+  "match": "CHEN/CHAN vs GUO/CHEN",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1792085700,
+  "confirmedAt": 1792028130
+ },
+ "1556200": {
+  "sport": "badminton",
+  "match": "GOH/LAI vs CHRISTIANSEN/BØJE",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1792065600,
+  "confirmedAt": 1792028130
+ },
+ "1556201": {
+  "sport": "badminton",
+  "match": "WATANABE/TAGUCHI vs CHENG/ZHANG",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1792056600,
+  "confirmedAt": 1792028130
+ },
  "1556202": {
   "sport": "badminton",
   "match": "CHEN/CHAN vs WONG/CHENG",
@@ -2154,6 +2418,14 @@
   "start": 1791973800,
   "confirmedAt": 1791948369,
   "channel": "channel:4407974810"
+ },
+ "1556203": {
+  "sport": "badminton",
+  "match": "FENG/HUANG vs LIU/HSU",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1792071600,
+  "confirmedAt": 1792028130
  },
  "1556204": {
   "sport": "badminton",
@@ -2164,6 +2436,30 @@
   "confirmedAt": 1791948369,
   "channel": "channel:3356970387"
  },
+ "1556205": {
+  "sport": "badminton",
+  "match": "LEE/LEE vs LIANG/WANG",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Doubles",
+  "start": 1792070700,
+  "confirmedAt": 1792028130
+ },
+ "1556206": {
+  "sport": "badminton",
+  "match": "FUKUSHIMA/MATSUMOTO vs SUZUKI/YAMAKITA",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Doubles",
+  "start": 1792076700,
+  "confirmedAt": 1792028130
+ },
+ "1556207": {
+  "sport": "badminton",
+  "match": "CHIA/TEO vs GOH/IZZUDDIN",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Doubles",
+  "start": 1792074600,
+  "confirmedAt": 1792028130
+ },
  "1556208": {
   "sport": "badminton",
   "match": "FENG/HUANG vs WU/YANG",
@@ -2172,6 +2468,30 @@
   "start": 1791853200,
   "confirmedAt": 1791854558,
   "channel": "channel:3681698340"
+ },
+ "1556209": {
+  "sport": "badminton",
+  "match": "PUAVARANUKROH/PAEWSAMPRAN vs HOO/LAI",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1792051200,
+  "confirmedAt": 1792028130
+ },
+ "1556210": {
+  "sport": "badminton",
+  "match": "GICQUEL/DELRUE vs KOGA/SAITO",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1792056600,
+  "confirmedAt": 1792028130
+ },
+ "1556211": {
+  "sport": "badminton",
+  "match": "YE/CHAN vs ZHU/LI",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1792073700,
+  "confirmedAt": 1792028130
  },
  "jTnIKqKc": {
   "match": "Terengganu vs DPMM",
