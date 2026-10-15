@@ -3256,5 +3256,11 @@
   "start": 1792250100,
   "confirmedAt": 1792034466,
   "channel": "channel:4333906444"
+ },
+ "S8QVZQSG": {
+  "match": "Betis vs Barcelona",
+  "competition": "LaLiga",
+  "start": 1792254600,
+  "confirmedAt": 1792070276
  }
 }
