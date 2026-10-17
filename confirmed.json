@@ -1613,7 +1613,8 @@
   "tournament": "VICTOR Denmark Open 2026",
   "event": "Women's Doubles",
   "start": 1792238400,
-  "confirmedAt": 1792205664
+  "confirmedAt": 1792205664,
+  "channel": "channel:3681698340"
  },
  "1556075": {
   "sport": "badminton",
