@@ -3651,7 +3651,8 @@
   "match": "Juventus vs Lazio",
   "competition": "Serie A",
   "start": 1792349100,
-  "confirmedAt": 1792299007
+  "confirmedAt": 1792299007,
+  "channel": "channel:4294986195"
  },
  "dlbkuM4d": {
   "match": "Real Madrid vs Sevilla",
