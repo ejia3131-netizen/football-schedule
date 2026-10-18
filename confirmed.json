@@ -3646,5 +3646,11 @@
   "start": 1792339200,
   "confirmedAt": 1792298992,
   "channel": "channel:4294986195"
+ },
+ "S0KqGzw8": {
+  "match": "Juventus vs Lazio",
+  "competition": "Serie A",
+  "start": 1792349100,
+  "confirmedAt": 1792299007
  }
 }
