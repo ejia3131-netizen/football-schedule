@@ -3644,6 +3644,7 @@
   "match": "AC Milan vs Atalanta",
   "competition": "Serie A",
   "start": 1792339200,
-  "confirmedAt": 1792298992
+  "confirmedAt": 1792298992,
+  "channel": "channel:4294986195"
  }
 }
