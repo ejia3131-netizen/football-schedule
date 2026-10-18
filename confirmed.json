@@ -3607,7 +3607,8 @@
   "match": "Leeds vs Manchester Utd",
   "competition": "Premier League",
   "start": 1792328400,
-  "confirmedAt": 1792070285
+  "confirmedAt": 1792070285,
+  "channel": "channel:4375685324"
  },
  "KdQz25Ic": {
   "match": "Newcastle vs Aston Villa",
