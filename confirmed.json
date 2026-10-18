@@ -1618,6 +1618,14 @@
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/watch/channel/415SnQt4cuQftXr3P3foN4"
  },
+ "1556074": {
+  "sport": "badminton",
+  "match": "SUZUKI/YAMAKITA vs TAN/THINAAH",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Doubles",
+  "start": 1792320600,
+  "confirmedAt": 1792298686
+ },
  "1556075": {
   "sport": "badminton",
   "match": "SUKPHUN/TEERARATSAKUL vs LEE/YANG",
@@ -1636,6 +1644,14 @@
   "confirmedAt": 1792205664,
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/watch/channel/415SnQt4cuQftXr3P3foN4"
+ },
+ "1556077": {
+  "sport": "badminton",
+  "match": "CHIA/SOH vs ALFIAN/FIKRI",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Doubles",
+  "start": 1792326600,
+  "confirmedAt": 1792298686
  },
  "1556078": {
   "sport": "badminton",
@@ -1722,6 +1738,14 @@
   "start": 1791973200,
   "confirmedAt": 1791948369,
   "channel": "channel:3681698340"
+ },
+ "1556087": {
+  "sport": "badminton",
+  "match": "LANIER vs ANTONSEN",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Men's Singles",
+  "start": 1792329600,
+  "confirmedAt": 1792298686
  },
  "1556088": {
   "sport": "badminton",
@@ -2292,6 +2316,14 @@
   "confirmedAt": 1791948369,
   "channel": "channel:4407974810"
  },
+ "1556151": {
+  "sport": "badminton",
+  "match": "AN vs YAMAGUCHI",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Women's Singles",
+  "start": 1792323600,
+  "confirmedAt": 1792298686
+ },
  "1556152": {
   "sport": "badminton",
   "match": "ISHIKAWA/KAWAZOE vs BAO/CAO",
@@ -2514,6 +2546,14 @@
   "start": 1792054200,
   "confirmedAt": 1792028130,
   "channel": "channel:4407974810"
+ },
+ "1556176": {
+  "sport": "badminton",
+  "match": "FENG/HUANG vs JIANG/WEI",
+  "tournament": "VICTOR Denmark Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1792317600,
+  "confirmedAt": 1792298686
  },
  "1556177": {
   "sport": "badminton",
