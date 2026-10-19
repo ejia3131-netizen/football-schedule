@@ -3677,7 +3677,8 @@
   "match": "Parma vs Torino",
   "competition": "Serie A",
   "start": 1792435500,
-  "confirmedAt": 1792377063
+  "confirmedAt": 1792377063,
+  "channel": "channel:4294986195"
  },
  "0zSjbNHM": {
   "match": "Tottenham vs Coventry",
