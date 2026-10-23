@@ -5748,7 +5748,8 @@
   "match": "Arsenal vs Everton",
   "competition": "Premier League",
   "start": 1792850400,
-  "confirmedAt": 1792719905
+  "confirmedAt": 1792719905,
+  "channel": "channel:4333906444"
  },
  "GKNFEr23": {
   "match": "Chelsea vs Tottenham",
