@@ -5880,5 +5880,11 @@
   "competition": "Serie A",
   "start": 1792947600,
   "confirmedAt": 1792814799
+ },
+ "4YizA93F": {
+  "match": "Freiburg vs Bayern Munich",
+  "competition": "Bundesliga",
+  "start": 1792945800,
+  "confirmedAt": 1792814802
  }
 }
