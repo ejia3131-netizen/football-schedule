@@ -2895,6 +2895,24 @@
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/watch/channel/415SnQt4cuQftXr3P3foN4"
  },
+ "1558422": {
+  "sport": "badminton",
+  "match": "GOH/IZZUDDIN vs CARNANDO/MARTHIN",
+  "tournament": "YONEX French Open 2026",
+  "event": "Men's Doubles",
+  "start": 1792864200,
+  "confirmedAt": 1792814583,
+  "channel": "channel:3681698340"
+ },
+ "1558424": {
+  "sport": "badminton",
+  "match": "MAN/TEE vs INDRA/JOAQUIN",
+  "tournament": "YONEX French Open 2026",
+  "event": "Men's Doubles",
+  "start": 1792858200,
+  "confirmedAt": 1792814583,
+  "channel": "channel:3681698340"
+ },
  "1558425": {
   "sport": "badminton",
   "match": "AN vs HAN",
@@ -2913,6 +2931,15 @@
   "start": 1792573200,
   "confirmedAt": 1792558698,
   "channel": "channel:4299910752"
+ },
+ "1558427": {
+  "sport": "badminton",
+  "match": "PUSARLA vs AKECHI",
+  "tournament": "YONEX French Open 2026",
+  "event": "Women's Singles",
+  "start": 1792833000,
+  "confirmedAt": 1792814583,
+  "channel": "channel:3681698340"
  },
  "1558428": {
   "sport": "badminton",
@@ -2968,6 +2995,24 @@
   "event": "Mixed Doubles",
   "start": 1792491900,
   "confirmedAt": 1792492991,
+  "channel": "channel:3681698340"
+ },
+ "1558435": {
+  "sport": "badminton",
+  "match": "POPOV vs HU",
+  "tournament": "YONEX French Open 2026",
+  "event": "Men's Singles",
+  "start": 1792861200,
+  "confirmedAt": 1792814583,
+  "channel": "channel:3681698340"
+ },
+ "1558436": {
+  "sport": "badminton",
+  "match": "LANIER vs UBAIDILLAH",
+  "tournament": "YONEX French Open 2026",
+  "event": "Men's Singles",
+  "start": 1792855200,
+  "confirmedAt": 1792814583,
   "channel": "channel:3681698340"
  },
  "1558437": {
@@ -3195,6 +3240,15 @@
   "confirmedAt": 1792492969,
   "channel": "channel:4299910752"
  },
+ "1558461": {
+  "sport": "badminton",
+  "match": "FUKUSHIMA/MATSUMOTO vs ROSE/SETIANINGRUM",
+  "tournament": "YONEX French Open 2026",
+  "event": "Women's Doubles",
+  "start": 1792852200,
+  "confirmedAt": 1792814583,
+  "channel": "channel:3681698340"
+ },
  "1558463": {
   "sport": "badminton",
   "match": "FUKUSHIMA/MATSUMOTO vs PRATIWI/RAMADHANTI",
@@ -3204,6 +3258,15 @@
   "confirmedAt": 1792720194,
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/watch/channel/415SnQt4cuQftXr3P3foN4"
+ },
+ "1558464": {
+  "sport": "badminton",
+  "match": "IWANAGA/NAKANISHI vs TAN/THINAAH",
+  "tournament": "YONEX French Open 2026",
+  "event": "Women's Doubles",
+  "start": 1792839000,
+  "confirmedAt": 1792814583,
+  "channel": "channel:3681698340"
  },
  "1558465": {
   "sport": "badminton",
@@ -3523,6 +3586,15 @@
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/watch/channel/415SnQt4cuQftXr3P3foN4"
  },
+ "1558500": {
+  "sport": "badminton",
+  "match": "GUO/CHEN vs HOO/LAI",
+  "tournament": "YONEX French Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1792830000,
+  "confirmedAt": 1792814583,
+  "channel": "channel:3681698340"
+ },
  "1558501": {
   "sport": "badminton",
   "match": "GICQUEL/DELRUE vs WU/LEE",
@@ -3676,6 +3748,15 @@
   "channel": "channel:3356970387",
   "sooka_url": "https://sooka.my/watch/channel/4fDjqPxWwRvwVB67f5QjVt"
  },
+ "1558517": {
+  "sport": "badminton",
+  "match": "FENG/HUANG vs GICQUEL/DELRUE",
+  "tournament": "YONEX French Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1792836000,
+  "confirmedAt": 1792814583,
+  "channel": "channel:3681698340"
+ },
  "1558518": {
   "sport": "badminton",
   "match": "SEN vs NARAOKA",
@@ -3741,6 +3822,15 @@
   "start": 1792576200,
   "confirmedAt": 1792558698,
   "channel": "channel:4407974810"
+ },
+ "1558525": {
+  "sport": "badminton",
+  "match": "AN vs OKUHARA",
+  "tournament": "YONEX French Open 2026",
+  "event": "Women's Singles",
+  "start": 1792827000,
+  "confirmedAt": 1792814583,
+  "channel": "channel:3681698340"
  },
  "1558527": {
   "sport": "badminton",
