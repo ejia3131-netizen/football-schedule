@@ -2905,6 +2905,15 @@
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/watch/channel/415SnQt4cuQftXr3P3foN4"
  },
+ "1558423": {
+  "sport": "badminton",
+  "match": "GOH/IZZUDDIN vs MAN/TEE",
+  "tournament": "YONEX French Open 2026",
+  "event": "Men's Doubles",
+  "start": 1792934400,
+  "confirmedAt": 1792887452,
+  "channel": "channel:3681698340"
+ },
  "1558424": {
   "sport": "badminton",
   "match": "MAN/TEE vs INDRA/JOAQUIN",
@@ -2998,6 +3007,15 @@
   "event": "Mixed Doubles",
   "start": 1792491900,
   "confirmedAt": 1792492991,
+  "channel": "channel:3681698340"
+ },
+ "1558434": {
+  "sport": "badminton",
+  "match": "UBAIDILLAH vs POPOV",
+  "tournament": "YONEX French Open 2026",
+  "event": "Men's Singles",
+  "start": 1792931400,
+  "confirmedAt": 1792887452,
   "channel": "channel:3681698340"
  },
  "1558435": {
@@ -3254,6 +3272,15 @@
   "confirmedAt": 1792814583,
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/watch/channel/415SnQt4cuQftXr3P3foN4"
+ },
+ "1558462": {
+  "sport": "badminton",
+  "match": "FUKUSHIMA/MATSUMOTO vs TAN/THINAAH",
+  "tournament": "YONEX French Open 2026",
+  "event": "Women's Doubles",
+  "start": 1792925400,
+  "confirmedAt": 1792887452,
+  "channel": "channel:3681698340"
  },
  "1558463": {
   "sport": "badminton",
@@ -3554,6 +3581,15 @@
   "channel": "channel:3356970387",
   "sooka_url": "https://sooka.my/watch/channel/4fDjqPxWwRvwVB67f5QjVt"
  },
+ "1558495": {
+  "sport": "badminton",
+  "match": "FENG/HUANG vs HOO/LAI",
+  "tournament": "YONEX French Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1792928400,
+  "confirmedAt": 1792887452,
+  "channel": "channel:3681698340"
+ },
  "1558496": {
   "sport": "badminton",
   "match": "MAN/TEE vs HOKI/KOBAYASHI",
@@ -3841,6 +3877,15 @@
   "confirmedAt": 1792814583,
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/watch/channel/415SnQt4cuQftXr3P3foN4"
+ },
+ "1558526": {
+  "sport": "badminton",
+  "match": "AN vs PUSARLA",
+  "tournament": "YONEX French Open 2026",
+  "event": "Women's Singles",
+  "start": 1792922400,
+  "confirmedAt": 1792887452,
+  "channel": "channel:3681698340"
  },
  "1558527": {
   "sport": "badminton",
