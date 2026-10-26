@@ -5956,5 +5956,11 @@
   "start": 1793095200,
   "confirmedAt": 1792814812,
   "channel": "channel:4333906444"
+ },
+ "UNVlhk7M": {
+  "match": "AS Roma vs Cagliari",
+  "competition": "Serie A",
+  "start": 1793130300,
+  "confirmedAt": 1793057529
  }
 }
