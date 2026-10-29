@@ -6980,5 +6980,11 @@
   "start": 1793467800,
   "confirmedAt": 1793237618,
   "channel": "channel:4333906444"
+ },
+ "bRXj39aJ": {
+  "match": "Aston Villa vs Fulham",
+  "competition": "Premier League",
+  "start": 1793476800,
+  "confirmedAt": 1793237629
  }
 }
