@@ -6918,5 +6918,11 @@
   "start": 1793700000,
   "confirmedAt": 1793175020,
   "channel": "channel:4333906444"
+ },
+ "4Sl1j8Bs": {
+  "match": "Everton vs Newcastle",
+  "competition": "EFL Cup",
+  "start": 1793303100,
+  "confirmedAt": 1793237530
  }
 }
