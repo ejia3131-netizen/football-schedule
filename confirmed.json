@@ -6959,5 +6959,11 @@
   "start": 1793458800,
   "confirmedAt": 1793237579,
   "channel": "channel:4294986195"
+ },
+ "S0CzBLIP": {
+  "match": "Brentford vs Nottingham",
+  "competition": "Premier League",
+  "start": 1793458800,
+  "confirmedAt": 1793237599
  }
 }
