@@ -6973,5 +6973,11 @@
   "start": 1793458800,
   "confirmedAt": 1793237609,
   "channel": "channel:4268202100"
+ },
+ "6BggGGf5": {
+  "match": "Tottenham vs Crystal Palace",
+  "competition": "Premier League",
+  "start": 1793467800,
+  "confirmedAt": 1793237618
  }
 }
