@@ -4623,6 +4623,15 @@
   "confirmedAt": 1793068171,
   "channel": "channel:3681698340"
  },
+ "1560246": {
+  "sport": "badminton",
+  "match": "TAI/YAP vs CHIU/WANG",
+  "tournament": "HYLO Open 2026",
+  "event": "Men's Doubles",
+  "start": 1793382600,
+  "confirmedAt": 1793326040,
+  "channel": "channel:3681698340"
+ },
  "1560247": {
   "sport": "badminton",
   "match": "KOLJONEN vs SUBRAMANIAN",
@@ -4659,6 +4668,33 @@
   "confirmedAt": 1793068171,
   "channel": "channel:3356970387"
  },
+ "1560252": {
+  "sport": "badminton",
+  "match": "MAIO/VILLEGER vs LUNDGAARD/VESTERGAARD",
+  "tournament": "HYLO Open 2026",
+  "event": "Men's Doubles",
+  "start": 1793374200,
+  "confirmedAt": 1793326040,
+  "channel": "channel:4407974810"
+ },
+ "1560253": {
+  "sport": "badminton",
+  "match": "BOE/ESPERSEN vs KJÆR/KJÆR",
+  "tournament": "HYLO Open 2026",
+  "event": "Men's Doubles",
+  "start": 1793377200,
+  "confirmedAt": 1793326040,
+  "channel": "channel:4407974810"
+ },
+ "1560254": {
+  "sport": "badminton",
+  "match": "CHEN/LIU vs LANE/VENDY",
+  "tournament": "HYLO Open 2026",
+  "event": "Men's Doubles",
+  "start": 1793376600,
+  "confirmedAt": 1793326040,
+  "channel": "channel:3681698340"
+ },
  "1560255": {
   "sport": "badminton",
   "match": "STROOPER/BANG vs PERALS/TORRALBA",
@@ -4684,6 +4720,42 @@
   "event": "Men's Singles",
   "start": 1793186400,
   "confirmedAt": 1793151356,
+  "channel": "channel:4407974810"
+ },
+ "1560261": {
+  "sport": "badminton",
+  "match": "TOFT/KUDSK vs HEMMING/VAN LEEUWEN",
+  "tournament": "HYLO Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793365200,
+  "confirmedAt": 1793326040,
+  "channel": "channel:4407974810"
+ },
+ "1560262": {
+  "sport": "badminton",
+  "match": "GARCIA/RODRIGUEZ vs SYAHNAWI/MARWAH",
+  "tournament": "HYLO Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793362200,
+  "confirmedAt": 1793326040,
+  "channel": "channel:3356970387"
+ },
+ "1560263": {
+  "sport": "badminton",
+  "match": "SEIDEL/NGUYEN vs GICQUEL/DELRUE",
+  "tournament": "HYLO Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793373600,
+  "confirmedAt": 1793326040,
+  "channel": "channel:3681698340"
+ },
+ "1560264": {
+  "sport": "badminton",
+  "match": "CHAN/NG vs HOO/LAI",
+  "tournament": "HYLO Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793371200,
+  "confirmedAt": 1793326040,
   "channel": "channel:4407974810"
  },
  "1560265": {
@@ -5169,6 +5241,15 @@
   "confirmedAt": 1793068171,
   "channel": "channel:3356970387"
  },
+ "1560322": {
+  "sport": "badminton",
+  "match": "KJAERSFELDT vs GILMOUR",
+  "tournament": "HYLO Open 2026",
+  "event": "Women's Singles",
+  "start": 1793365200,
+  "confirmedAt": 1793326040,
+  "channel": "channel:3356970387"
+ },
  "1560323": {
   "sport": "badminton",
   "match": "BOE/ESPERSEN vs KOLDING/LUNDSGAARD",
@@ -5176,6 +5257,33 @@
   "event": "Men's Doubles",
   "start": 1793105100,
   "confirmedAt": 1793068171,
+  "channel": "channel:4407974810"
+ },
+ "1560324": {
+  "sport": "badminton",
+  "match": "CHOCHUWONG vs ZHANG",
+  "tournament": "HYLO Open 2026",
+  "event": "Women's Singles",
+  "start": 1793361600,
+  "confirmedAt": 1793326040,
+  "channel": "channel:3681698340"
+ },
+ "1560325": {
+  "sport": "badminton",
+  "match": "SCHULZ vs PUSARLA",
+  "tournament": "HYLO Open 2026",
+  "event": "Women's Singles",
+  "start": 1793367600,
+  "confirmedAt": 1793326040,
+  "channel": "channel:3681698340"
+ },
+ "1560326": {
+  "sport": "badminton",
+  "match": "HOODA vs KHARB",
+  "tournament": "HYLO Open 2026",
+  "event": "Women's Singles",
+  "start": 1793368200,
+  "confirmedAt": 1793326040,
   "channel": "channel:4407974810"
  },
  "1560327": {
@@ -5260,6 +5368,42 @@
   "confirmedAt": 1793151356,
   "channel": "channel:4407974810"
  },
+ "1560337": {
+  "sport": "badminton",
+  "match": "ANTONSEN vs HOLM",
+  "tournament": "HYLO Open 2026",
+  "event": "Men's Singles",
+  "start": 1793368200,
+  "confirmedAt": 1793326040,
+  "channel": "channel:3356970387"
+ },
+ "1560339": {
+  "sport": "badminton",
+  "match": "MERKLE vs POPOV",
+  "tournament": "HYLO Open 2026",
+  "event": "Men's Singles",
+  "start": 1793362200,
+  "confirmedAt": 1793326040,
+  "channel": "channel:4407974810"
+ },
+ "1560340": {
+  "sport": "badminton",
+  "match": "CHRISTIE vs NARAOKA",
+  "tournament": "HYLO Open 2026",
+  "event": "Men's Singles",
+  "start": 1793364600,
+  "confirmedAt": 1793326040,
+  "channel": "channel:3681698340"
+ },
+ "1560341": {
+  "sport": "badminton",
+  "match": "SEN vs KOLJONEN",
+  "tournament": "HYLO Open 2026",
+  "event": "Men's Singles",
+  "start": 1793370600,
+  "confirmedAt": 1793326040,
+  "channel": "channel:3681698340"
+ },
  "1560343": {
   "sport": "badminton",
   "match": "FERDINANSYAH/PASARIBU vs VOLKMANN/VOLKMANN",
@@ -5296,6 +5440,24 @@
   "confirmedAt": 1793151356,
   "channel": "channel:3681698340"
  },
+ "1560348": {
+  "sport": "badminton",
+  "match": "HSU/LIN vs HSU/SUNG",
+  "tournament": "HYLO Open 2026",
+  "event": "Women's Doubles",
+  "start": 1793374200,
+  "confirmedAt": 1793326040,
+  "channel": "channel:3356970387"
+ },
+ "1560351": {
+  "sport": "badminton",
+  "match": "YEUNG/YEUNG vs STOEVA/STOEVA",
+  "tournament": "HYLO Open 2026",
+  "event": "Women's Doubles",
+  "start": 1793379600,
+  "confirmedAt": 1793326040,
+  "channel": "channel:3681698340"
+ },
  "1560352": {
   "sport": "badminton",
   "match": "GEMKE vs HOLM",
@@ -5304,6 +5466,15 @@
   "start": 1793280000,
   "confirmedAt": 1793237676,
   "channel": "channel:4407974810"
+ },
+ "1560353": {
+  "sport": "badminton",
+  "match": "KUSUMA/PUSPITASARI vs LAM/LEE",
+  "tournament": "HYLO Open 2026",
+  "event": "Women's Doubles",
+  "start": 1793371200,
+  "confirmedAt": 1793326040,
+  "channel": "channel:3356970387"
  },
  "1560354": {
   "sport": "badminton",
@@ -5349,6 +5520,15 @@
   "event": "Women's Doubles",
   "start": 1793288400,
   "confirmedAt": 1793237676,
+  "channel": "channel:3356970387"
+ },
+ "1560359": {
+  "sport": "badminton",
+  "match": "PRATIWI/RAMADHANTI vs KUESPERT/LOHAU",
+  "tournament": "HYLO Open 2026",
+  "event": "Women's Doubles",
+  "start": 1793377200,
+  "confirmedAt": 1793326040,
   "channel": "channel:3356970387"
  },
  "1560360": {
