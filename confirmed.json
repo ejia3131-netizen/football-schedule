@@ -7723,5 +7723,11 @@
   "start": 1793550600,
   "confirmedAt": 1793237654,
   "channel": "channel:4294986195"
+ },
+ "zu5gLmy9": {
+  "match": "Juventus vs Napoli",
+  "competition": "Serie A",
+  "start": 1793562300,
+  "confirmedAt": 1793604921
  }
 }
