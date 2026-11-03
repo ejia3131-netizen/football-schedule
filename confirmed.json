@@ -5923,6 +5923,15 @@
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/channel/Astro-Badminton/415SnQt4cuQftXr3P3foN4/60801257"
  },
+ "1562222": {
+  "sport": "badminton",
+  "match": "AN vs NALBANTOVA",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793770500,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3681698340"
+ },
  "1562227": {
   "sport": "badminton",
   "match": "PUSPITASARI vs KANTEMYR",
@@ -5931,6 +5940,33 @@
   "start": 1793677200,
   "confirmedAt": 1793669725,
   "channel": "channel:4407974810"
+ },
+ "1562229": {
+  "sport": "badminton",
+  "match": "NARAOKA vs LEE",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793780100,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4407974810"
+ },
+ "1562230": {
+  "sport": "badminton",
+  "match": "KOGA/SAITO vs KHOIRIYANSYAH/JAMIL",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793769600,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4299910752"
+ },
+ "1562233": {
+  "sport": "badminton",
+  "match": "KIM vs SIM",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793760600,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4299910752"
  },
  "1562239": {
   "sport": "badminton",
@@ -5941,6 +5977,15 @@
   "confirmedAt": 1793669725,
   "channel": "channel:4407974810"
  },
+ "1562241": {
+  "sport": "badminton",
+  "match": "WATANABE vs NG",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793782500,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3356970387"
+ },
  "1562243": {
   "sport": "badminton",
   "match": "CHEN/SUN vs HARA/KIYOSE",
@@ -5950,6 +5995,15 @@
   "confirmedAt": 1793669725,
   "channel": "channel:4407974810"
  },
+ "1562244": {
+  "sport": "badminton",
+  "match": "WANG vs RICHARDO",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793763000,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3356970387"
+ },
  "1562245": {
   "sport": "badminton",
   "match": "WANGCHAROEN vs KIM",
@@ -5958,6 +6012,15 @@
   "start": 1793671200,
   "confirmedAt": 1793669725,
   "channel": "channel:4299910752"
+ },
+ "1562246": {
+  "sport": "badminton",
+  "match": "CHAN vs KHARB",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793769600,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4407974810"
  },
  "1562248": {
   "sport": "badminton",
@@ -5977,6 +6040,33 @@
   "confirmedAt": 1793669725,
   "channel": "channel:3681698340"
  },
+ "1562250": {
+  "sport": "badminton",
+  "match": "CHENG/ZHANG vs LEE/PARK",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793757000,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3356970387"
+ },
+ "1562252": {
+  "sport": "badminton",
+  "match": "MIYAZAKI vs HUANG",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793779500,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3356970387"
+ },
+ "1562253": {
+  "sport": "badminton",
+  "match": "CHOU vs WANG",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793777100,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4299910752"
+ },
  "1562254": {
   "sport": "badminton",
   "match": "LIN/LIN vs MATSUI/MITSUHASHI",
@@ -5993,6 +6083,33 @@
   "event": "Women's Singles - Qualification",
   "start": 1793676600,
   "confirmedAt": 1793669725,
+  "channel": "channel:3681698340"
+ },
+ "1562256": {
+  "sport": "badminton",
+  "match": "RAWAT/MANEESHA vs ZHU/LI",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793766600,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4407974810"
+ },
+ "1562257": {
+  "sport": "badminton",
+  "match": "PRATIWI vs CHIU",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793769000,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3356970387"
+ },
+ "1562258": {
+  "sport": "badminton",
+  "match": "WANG/XIE vs KANG/LEE",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Doubles",
+  "start": 1793754000,
+  "confirmedAt": 1793717218,
   "channel": "channel:3681698340"
  },
  "1562260": {
@@ -6022,6 +6139,15 @@
   "confirmedAt": 1793669725,
   "channel": "channel:3356970387"
  },
+ "1562265": {
+  "sport": "badminton",
+  "match": "HIDAYATULLAH/NASTINE vs WATANABE/TAGUCHI",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793766000,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3356970387"
+ },
  "1562269": {
   "sport": "badminton",
   "match": "JIN/JO vs AZRIYN/TAN",
@@ -6031,6 +6157,15 @@
   "confirmedAt": 1793669725,
   "channel": "channel:3681698340"
  },
+ "1562270": {
+  "sport": "badminton",
+  "match": "DEVEREUX/TOEPFFER vs KIM/JANG",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793754000,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3356970387"
+ },
  "1562271": {
   "sport": "badminton",
   "match": "JIN/LEE vs HYUN/LEE",
@@ -6039,6 +6174,24 @@
   "start": 1793676600,
   "confirmedAt": 1793669725,
   "channel": "channel:3356970387"
+ },
+ "1562272": {
+  "sport": "badminton",
+  "match": "ZHU vs TAKEI",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793770500,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3356970387"
+ },
+ "1562273": {
+  "sport": "badminton",
+  "match": "CHOI/GOH vs HYUN/LEE",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Doubles",
+  "start": 1793754600,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4407974810"
  },
  "1562274": {
   "sport": "badminton",
@@ -6058,6 +6211,42 @@
   "confirmedAt": 1793669725,
   "channel": "channel:3356970387"
  },
+ "1562279": {
+  "sport": "badminton",
+  "match": "HAN vs JAISWAL",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793776500,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3356970387"
+ },
+ "1562288": {
+  "sport": "badminton",
+  "match": "PRANNOY vs YOO",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793766000,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3681698340"
+ },
+ "1562291": {
+  "sport": "badminton",
+  "match": "SHARMA vs SUIZU",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793780100,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4299910752"
+ },
+ "1562296": {
+  "sport": "badminton",
+  "match": "SHUJIWO vs LEE",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793760600,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4407974810"
+ },
  "1562297": {
   "sport": "badminton",
   "match": "MEIDA/NASTINE vs MOON/PARK",
@@ -6067,6 +6256,15 @@
   "confirmedAt": 1793669725,
   "channel": "channel:3681698340"
  },
+ "1562299": {
+  "sport": "badminton",
+  "match": "AKECHI vs XU",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793783100,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4407974810"
+ },
  "1562300": {
   "sport": "badminton",
   "match": "EWE vs PARK",
@@ -6075,6 +6273,42 @@
   "start": 1793668200,
   "confirmedAt": 1793669725,
   "channel": "channel:4299910752"
+ },
+ "1562301": {
+  "sport": "badminton",
+  "match": "CHEN/CHEN vs KAWABE/ISHIKAWA",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793768100,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4299910752"
+ },
+ "1562302": {
+  "sport": "badminton",
+  "match": "YANG vs LAI",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793771100,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4299910752"
+ },
+ "1562303": {
+  "sport": "badminton",
+  "match": "KIM vs PUSPITASARI",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793760000,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3356970387"
+ },
+ "1562312": {
+  "sport": "badminton",
+  "match": "KIM vs YUSUF",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793774100,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4407974810"
  },
  "1562314": {
   "sport": "badminton",
@@ -6094,6 +6328,15 @@
   "confirmedAt": 1793669725,
   "channel": "channel:4407974810"
  },
+ "1562316": {
+  "sport": "badminton",
+  "match": "WIRYAWAN vs WONG",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793766600,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4299910752"
+ },
  "1562318": {
   "sport": "badminton",
   "match": "LEE/PARK vs KIM/LEE",
@@ -6103,6 +6346,15 @@
   "confirmedAt": 1793669725,
   "channel": "channel:4299910752"
  },
+ "1562320": {
+  "sport": "badminton",
+  "match": "TANAKA vs UBAIDILLAH",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793773500,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3681698340"
+ },
  "1562321": {
   "sport": "badminton",
   "match": "HE/REN vs OKAMURA/YAMASHITA",
@@ -6111,6 +6363,24 @@
   "start": 1793695800,
   "confirmedAt": 1793669725,
   "channel": "channel:4407974810"
+ },
+ "1562325": {
+  "sport": "badminton",
+  "match": "LEE/PARK vs LOCK/HOANG",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793767500,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3681698340"
+ },
+ "1562327": {
+  "sport": "badminton",
+  "match": "LO vs YAMAGUCHI",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793769000,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3681698340"
  },
  "1562329": {
   "sport": "badminton",
@@ -6139,6 +6409,24 @@
   "confirmedAt": 1793669725,
   "channel": "channel:3356970387"
  },
+ "1562335": {
+  "sport": "badminton",
+  "match": "HOO/LAI vs SAEHENG/SAEHENG",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793763600,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4407974810"
+ },
+ "1562336": {
+  "sport": "badminton",
+  "match": "XIE/ZHANG vs JIN/LEE",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793768100,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4407974810"
+ },
  "1562339": {
   "sport": "badminton",
   "match": " vs ",
@@ -6146,6 +6434,15 @@
   "event": "Men's Singles - Qualification",
   "start": 1793679600,
   "confirmedAt": 1793669725,
+  "channel": "channel:3681698340"
+ },
+ "1562341": {
+  "sport": "badminton",
+  "match": "NISHIMOTO vs FARHAN",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793760000,
+  "confirmedAt": 1793717218,
   "channel": "channel:3681698340"
  },
  "1562342": {
@@ -6184,6 +6481,33 @@
   "confirmedAt": 1793669725,
   "channel": "channel:3681698340"
  },
+ "1562350": {
+  "sport": "badminton",
+  "match": "GUNJI vs CHEN",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793773500,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3356970387"
+ },
+ "1562353": {
+  "sport": "badminton",
+  "match": "WANG vs CARRAGGI",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793776500,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3681698340"
+ },
+ "1562355": {
+  "sport": "badminton",
+  "match": "PAI vs TUNG",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793774100,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4299910752"
+ },
  "1562356": {
   "sport": "badminton",
   "match": "HOANG vs KIM",
@@ -6202,6 +6526,51 @@
   "confirmedAt": 1793669725,
   "channel": "channel:3356970387"
  },
+ "1562358": {
+  "sport": "badminton",
+  "match": "KAWABE/MATSUKAWA vs CHEN/LU",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Doubles",
+  "start": 1793754600,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4299910752"
+ },
+ "1562359": {
+  "sport": "badminton",
+  "match": "LU/CHOU vs HYUN/MOON",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793767500,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3356970387"
+ },
+ "1562360": {
+  "sport": "badminton",
+  "match": "KIM vs LIN",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793757000,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3681698340"
+ },
+ "1562361": {
+  "sport": "badminton",
+  "match": "WANG/LAM vs HE/SUN",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793771100,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4407974810"
+ },
+ "1562363": {
+  "sport": "badminton",
+  "match": "DONG vs OKIMOTO",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793763600,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4299910752"
+ },
  "1562364": {
   "sport": "badminton",
   "match": "TAKEI vs OGAWA",
@@ -6210,6 +6579,15 @@
   "start": 1793670600,
   "confirmedAt": 1793669725,
   "channel": "channel:3356970387"
+ },
+ "1562365": {
+  "sport": "badminton",
+  "match": "BUHROVA vs PARK",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793763000,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3681698340"
  },
  "1562366": {
   "sport": "badminton",
@@ -6227,6 +6605,15 @@
   "event": "Men's Singles - Qualification",
   "start": 1793671200,
   "confirmedAt": 1793669725,
+  "channel": "channel:4407974810"
+ },
+ "1562373": {
+  "sport": "badminton",
+  "match": "LETSHANAA vs SAEHENG",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1793777100,
+  "confirmedAt": 1793717218,
   "channel": "channel:4407974810"
  },
  "1562375": {
@@ -6247,6 +6634,24 @@
   "confirmedAt": 1793683398,
   "channel": "channel:4407974810"
  },
+ "1562379": {
+  "sport": "badminton",
+  "match": "HU vs KOGA",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793757600,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4407974810"
+ },
+ "1562384": {
+  "sport": "badminton",
+  "match": "CHEN/CHAN vs RAMADIANSYAH/SHIMIZU",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1793757600,
+  "confirmedAt": 1793717218,
+  "channel": "channel:4299910752"
+ },
  "1562388": {
   "sport": "badminton",
   "match": "SINGH/THAKER vs GRISELDA/SHIMIZU",
@@ -6254,6 +6659,24 @@
   "event": "Women's Doubles",
   "start": 1793701200,
   "confirmedAt": 1793669748,
+  "channel": "channel:3681698340"
+ },
+ "1562391": {
+  "sport": "badminton",
+  "match": "JEON vs GINTING",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793779500,
+  "confirmedAt": 1793717218,
+  "channel": "channel:3681698340"
+ },
+ "1562395": {
+  "sport": "badminton",
+  "match": "KIM vs GUNAWAN",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793782500,
+  "confirmedAt": 1793717218,
   "channel": "channel:3681698340"
  },
  "jTnIKqKc": {
