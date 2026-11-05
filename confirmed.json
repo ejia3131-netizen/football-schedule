@@ -8830,5 +8830,11 @@
   "start": 1794146400,
   "confirmedAt": 1793880983,
   "channel": "channel:4375685324"
+ },
+ "2ZAFSppS": {
+  "match": "Sunderland vs Chelsea",
+  "competition": "Premier League",
+  "start": 1794146400,
+  "confirmedAt": 1793881028
  }
 }
