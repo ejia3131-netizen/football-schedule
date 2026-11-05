@@ -8776,5 +8776,11 @@
   "start": 1793908800,
   "confirmedAt": 1793880867,
   "channel": "channel:4333906444"
+ },
+ "hUC4nhiT": {
+  "match": "AC Milan vs Ferencvaros",
+  "competition": "Europa League - League phase",
+  "start": 1793900700,
+  "confirmedAt": 1793880878
  }
 }
