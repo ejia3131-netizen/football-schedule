@@ -8794,12 +8794,14 @@
   "match": "Mainz vs Bayern Munich",
   "competition": "Bundesliga",
   "start": 1794061800,
-  "confirmedAt": 1793880919
+  "confirmedAt": 1793880919,
+  "channel": "channel:4333906444"
  },
  "A72E8Phd": {
   "match": "Leeds vs Tottenham",
   "competition": "Premier League",
   "start": 1794054600,
-  "confirmedAt": 1793880924
+  "confirmedAt": 1793880924,
+  "channel": "channel:4333906444"
  }
 }
