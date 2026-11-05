@@ -6332,6 +6332,15 @@
   "confirmedAt": 1793717218,
   "channel": "channel:3356970387"
  },
+ "1562281": {
+  "sport": "badminton",
+  "match": "LEE vs WANG",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793940000,
+  "confirmedAt": 1793922274,
+  "channel": "channel:3681698340"
+ },
  "1562285": {
   "sport": "badminton",
   "match": "STOEVA/STOEVA vs HIRAMOTO/SHIDA",
@@ -6604,7 +6613,8 @@
   "event": "Women's Doubles",
   "start": 1793937000,
   "confirmedAt": 1793922271,
-  "channel": "channel:3681698340"
+  "channel": "channel:3681698340",
+  "sooka_url": "https://sooka.my/watch/channel/415SnQt4cuQftXr3P3foN4"
  },
  "1562331": {
   "sport": "badminton",
