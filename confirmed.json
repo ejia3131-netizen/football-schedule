@@ -5932,6 +5932,15 @@
   "confirmedAt": 1793717218,
   "channel": "channel:3681698340"
  },
+ "1562225": {
+  "sport": "badminton",
+  "match": "KIM/LEE vs LUO/WANG",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Doubles",
+  "start": 1793873400,
+  "confirmedAt": 1793843312,
+  "channel": "channel:3681698340"
+ },
  "1562227": {
   "sport": "badminton",
   "match": "PUSPITASARI vs KANTEMYR",
@@ -6239,6 +6248,15 @@
   "start": 1793701200,
   "confirmedAt": 1793669725,
   "channel": "channel:3356970387"
+ },
+ "1562276": {
+  "sport": "badminton",
+  "match": "TANAKA vs KIM",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1793876400,
+  "confirmedAt": 1793843314,
+  "channel": "channel:3681698340"
  },
  "1562278": {
   "sport": "badminton",
