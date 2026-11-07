@@ -6085,6 +6085,15 @@
   "confirmedAt": 1793717218,
   "channel": "channel:4407974810"
  },
+ "1562247": {
+  "sport": "badminton",
+  "match": "KIM/SEO vs HOKI/KOBAYASHI",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Doubles",
+  "start": 1794115200,
+  "confirmedAt": 1794055203,
+  "channel": "channel:3681698340"
+ },
  "1562248": {
   "sport": "badminton",
   "match": "LOCK vs WANG",
@@ -6173,6 +6182,15 @@
   "event": "Men's Doubles",
   "start": 1793754000,
   "confirmedAt": 1793717218,
+  "channel": "channel:3681698340"
+ },
+ "1562259": {
+  "sport": "badminton",
+  "match": "GUNAWAN vs LAI",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Men's Singles",
+  "start": 1794112200,
+  "confirmedAt": 1794055203,
   "channel": "channel:3681698340"
  },
  "1562260": {
@@ -6389,6 +6407,15 @@
   "start": 1793780100,
   "confirmedAt": 1793717218,
   "channel": "channel:4299910752"
+ },
+ "1562295": {
+  "sport": "badminton",
+  "match": "JIANG/WEI vs GAO/WU",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1794103200,
+  "confirmedAt": 1794055203,
+  "channel": "channel:3681698340"
  },
  "1562296": {
   "sport": "badminton",
@@ -6673,6 +6700,15 @@
   "confirmedAt": 1793717218,
   "channel": "channel:4407974810"
  },
+ "1562337": {
+  "sport": "badminton",
+  "match": "HIROKAMI/HOBARA vs KIM/LEE",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Doubles",
+  "start": 1794106200,
+  "confirmedAt": 1794055203,
+  "channel": "channel:3681698340"
+ },
  "1562339": {
   "sport": "badminton",
   "match": " vs ",
@@ -6956,6 +6992,15 @@
   "confirmedAt": 1793843012,
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/live-video/channel/415SnQt4cuQftXr3P3foN4"
+ },
+ "1562382": {
+  "sport": "badminton",
+  "match": "AN vs YAMAGUCHI",
+  "tournament": "YEOSU VICTOR Korea Open 2026",
+  "event": "Women's Singles",
+  "start": 1794109200,
+  "confirmedAt": 1794055203,
+  "channel": "channel:3681698340"
  },
  "1562384": {
   "sport": "badminton",
