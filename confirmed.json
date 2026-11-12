@@ -7152,6 +7152,42 @@
   "confirmedAt": 1794362090,
   "channel": "channel:4407974810"
  },
+ "1565776": {
+  "sport": "badminton",
+  "match": "KIDAMBI vs NARAOKA",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Singles",
+  "start": 1794457200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4407974810"
+ },
+ "1565777": {
+  "sport": "badminton",
+  "match": "KANEHIRO/KATO vs HSU/LIN",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Doubles",
+  "start": 1794466200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4407974810"
+ },
+ "1565778": {
+  "sport": "badminton",
+  "match": "LAM/LEE vs HIRAMOTO/SHIDA",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Doubles",
+  "start": 1794462600,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3681698340"
+ },
+ "1565779": {
+  "sport": "badminton",
+  "match": "HIROTA/SAKURAMOTO vs PRATIWI/RAMADHANTI",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Doubles",
+  "start": 1794468600,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3681698340"
+ },
  "1565780": {
   "sport": "badminton",
   "match": "JOHANNESEN vs VITIDSARN",
@@ -7160,6 +7196,51 @@
   "start": 1794382500,
   "confirmedAt": 1794362090,
   "channel": "channel:3356970387"
+ },
+ "1565783": {
+  "sport": "badminton",
+  "match": "FUKUSHIMA/MATSUMOTO vs KIM/LEE",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Doubles",
+  "start": 1794465600,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3681698340"
+ },
+ "1565785": {
+  "sport": "badminton",
+  "match": "IWANAGA/NAKANISHI vs JOLLY/PULLELA",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Doubles",
+  "start": 1794463200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3356970387"
+ },
+ "1565786": {
+  "sport": "badminton",
+  "match": "KIM/LEE vs LIN/YANG",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Doubles",
+  "start": 1794463200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4299910752"
+ },
+ "1565787": {
+  "sport": "badminton",
+  "match": "LUO/WANG vs NAKADE/TAKAHASHI",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Doubles",
+  "start": 1794469200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4407974810"
+ },
+ "1565788": {
+  "sport": "badminton",
+  "match": "KUSUMA/PUSPITASARI vs KONEGAWA/UESUGI",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Doubles",
+  "start": 1794469200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4299910752"
  },
  "1565790": {
   "sport": "badminton",
@@ -7215,6 +7296,15 @@
   "confirmedAt": 1794277041,
   "channel": "channel:4299910752"
  },
+ "1565796": {
+  "sport": "badminton",
+  "match": "WANG vs POPOV",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Singles",
+  "start": 1794448200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3356970387"
+ },
  "1565797": {
   "sport": "badminton",
   "match": "DONG vs LEE",
@@ -7223,6 +7313,15 @@
   "start": 1794388500,
   "confirmedAt": 1794362090,
   "channel": "channel:4407974810"
+ },
+ "1565798": {
+  "sport": "badminton",
+  "match": "YOO vs VITIDSARN",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Singles",
+  "start": 1794451200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4299910752"
  },
  "1565799": {
   "sport": "badminton",
@@ -7233,6 +7332,15 @@
   "confirmedAt": 1794362090,
   "channel": "channel:3681698340"
  },
+ "1565800": {
+  "sport": "badminton",
+  "match": "WATANABE vs CHOU",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Singles",
+  "start": 1794453600,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3681698340"
+ },
  "1565801": {
   "sport": "badminton",
   "match": "HAN vs TUNG",
@@ -7240,6 +7348,24 @@
   "event": "Women's Singles",
   "start": 1794385500,
   "confirmedAt": 1794362090,
+  "channel": "channel:3356970387"
+ },
+ "1565802": {
+  "sport": "badminton",
+  "match": "LAI vs TANAKA",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Singles",
+  "start": 1794454200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3356970387"
+ },
+ "1565803": {
+  "sport": "badminton",
+  "match": "SEN vs DONG",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Singles",
+  "start": 1794457200,
+  "confirmedAt": 1794441701,
   "channel": "channel:3356970387"
  },
  "1565804": {
@@ -7287,6 +7413,15 @@
   "confirmedAt": 1794277041,
   "channel": "channel:4407974810"
  },
+ "1565816": {
+  "sport": "badminton",
+  "match": "FARHAN vs NISHIMOTO",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Singles",
+  "start": 1794451200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4407974810"
+ },
  "1565817": {
   "sport": "badminton",
   "match": "JONGSATHAPORNPARN/WEDLER vs IGARASHI/TANABE",
@@ -7322,6 +7457,24 @@
   "start": 1794385200,
   "confirmedAt": 1794362090,
   "channel": "channel:3681698340"
+ },
+ "1565821": {
+  "sport": "badminton",
+  "match": "POPOV vs UBAIDILLAH",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Singles",
+  "start": 1794444600,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3681698340"
+ },
+ "1565826": {
+  "sport": "badminton",
+  "match": "KJAERSFELDT vs MIYAZAKI",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Singles",
+  "start": 1794460200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4407974810"
  },
  "1565827": {
   "sport": "badminton",
@@ -7359,6 +7512,15 @@
   "confirmedAt": 1794362090,
   "channel": "channel:4407974810"
  },
+ "1565833": {
+  "sport": "badminton",
+  "match": "LIN vs INTANON",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Singles",
+  "start": 1794457200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4299910752"
+ },
  "1565834": {
   "sport": "badminton",
   "match": "IWANAGA/NAKANISHI vs CORBETT/GAI",
@@ -7376,6 +7538,24 @@
   "start": 1794295800,
   "confirmedAt": 1794277041,
   "channel": "channel:3356970387"
+ },
+ "1565836": {
+  "sport": "badminton",
+  "match": "YAMAGUCHI vs KATETHONG",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Singles",
+  "start": 1794459600,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3681698340"
+ },
+ "1565837": {
+  "sport": "badminton",
+  "match": "GUNJI vs TUNG",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Singles",
+  "start": 1794466200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4299910752"
  },
  "1565838": {
   "sport": "badminton",
@@ -7421,6 +7601,24 @@
   "start": 1794394500,
   "confirmedAt": 1794362090,
   "channel": "channel:3356970387"
+ },
+ "1565846": {
+  "sport": "badminton",
+  "match": "CHEN vs NALBANTOVA",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Singles",
+  "start": 1794451200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3356970387"
+ },
+ "1565847": {
+  "sport": "badminton",
+  "match": "CHOCHUWONG vs NIDAIRA",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Singles",
+  "start": 1794454200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4407974810"
  },
  "1565848": {
   "sport": "badminton",
@@ -7530,6 +7728,15 @@
   "confirmedAt": 1794277041,
   "channel": "channel:4407974810"
  },
+ "1565865": {
+  "sport": "badminton",
+  "match": "LUNDGAARD/VESTERGAARD vs MAN/TEE",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Doubles",
+  "start": 1794456600,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3681698340"
+ },
  "1565866": {
   "sport": "badminton",
   "match": "HOANG vs SUNAKAWA",
@@ -7537,6 +7744,15 @@
   "event": "Women's Singles - Qualification",
   "start": 1794280800,
   "confirmedAt": 1794277041,
+  "channel": "channel:3681698340"
+ },
+ "1565867": {
+  "sport": "badminton",
+  "match": "CHIU/WANG vs OKAMURA/YAMASHITA",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Doubles",
+  "start": 1794450600,
+  "confirmedAt": 1794441701,
   "channel": "channel:3681698340"
  },
  "1565869": {
@@ -7547,6 +7763,24 @@
   "start": 1794391500,
   "confirmedAt": 1794362090,
   "channel": "channel:3356970387"
+ },
+ "1565870": {
+  "sport": "badminton",
+  "match": "BLICHFELDT vs WANG",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Singles",
+  "start": 1794469200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3356970387"
+ },
+ "1565871": {
+  "sport": "badminton",
+  "match": "SUNG vs OKUHARA",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Singles",
+  "start": 1794463200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4407974810"
  },
  "1565872": {
   "sport": "badminton",
@@ -7564,6 +7798,15 @@
   "event": "Men's Doubles",
   "start": 1794290400,
   "confirmedAt": 1794277041,
+  "channel": "channel:4299910752"
+ },
+ "1565874": {
+  "sport": "badminton",
+  "match": "WANG/XIE vs HE/REN",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Doubles",
+  "start": 1794460200,
+  "confirmedAt": 1794441701,
   "channel": "channel:4299910752"
  },
  "1565875": {
@@ -7584,6 +7827,15 @@
   "confirmedAt": 1794362090,
   "channel": "channel:4407974810"
  },
+ "1565877": {
+  "sport": "badminton",
+  "match": "KIM/SEO vs JIN/JO",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Doubles",
+  "start": 1794466200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3356970387"
+ },
  "1565878": {
   "sport": "badminton",
   "match": "FAZA/PRANATA vs WATANABE/TAGUCHI",
@@ -7593,6 +7845,15 @@
   "confirmedAt": 1794362090,
   "channel": "channel:3681698340"
  },
+ "1565880": {
+  "sport": "badminton",
+  "match": "AMSAKARUNAN/ARJUN vs HOKI/KOBAYASHI",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Doubles",
+  "start": 1794460200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3356970387"
+ },
  "1565881": {
   "sport": "badminton",
   "match": "KIDAMBI vs GEMKE",
@@ -7601,6 +7862,24 @@
   "start": 1794394800,
   "confirmedAt": 1794362090,
   "channel": "channel:4299910752"
+ },
+ "1565882": {
+  "sport": "badminton",
+  "match": "TAI/YAP vs GOH/IZZUDDIN",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Doubles",
+  "start": 1794448200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4299910752"
+ },
+ "1565883": {
+  "sport": "badminton",
+  "match": "LEE/YANG vs HU/LIANG",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Doubles",
+  "start": 1794445200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4407974810"
  },
  "1565884": {
   "sport": "badminton",
@@ -7665,6 +7944,15 @@
   "confirmedAt": 1794277041,
   "channel": "channel:4299910752"
  },
+ "1565896": {
+  "sport": "badminton",
+  "match": "LANE/VENDY vs CHEN/SMITH",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Doubles",
+  "start": 1794454200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4299910752"
+ },
  "1565897": {
   "sport": "badminton",
   "match": "XU vs KIM",
@@ -7674,6 +7962,24 @@
   "confirmedAt": 1794277041,
   "channel": "channel:3356970387"
  },
+ "1565898": {
+  "sport": "badminton",
+  "match": "JIANG/WEI vs HOO/LAI",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Mixed Doubles",
+  "start": 1794447600,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3681698340"
+ },
+ "1565899": {
+  "sport": "badminton",
+  "match": "YE/CHAN vs LIU/HSU",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Mixed Doubles",
+  "start": 1794442200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4299910752"
+ },
  "1565900": {
   "sport": "badminton",
   "match": "NGUYEN vs NISHIMOTO",
@@ -7682,6 +7988,51 @@
   "start": 1794373200,
   "confirmedAt": 1794362090,
   "channel": "channel:3681698340"
+ },
+ "1565901": {
+  "sport": "badminton",
+  "match": "CHENG/ZHANG vs KIM/JANG",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Mixed Doubles",
+  "start": 1794441600,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3681698340"
+ },
+ "1565904": {
+  "sport": "badminton",
+  "match": "SYAHNAWI/MARWAH vs WATANABE/TAGUCHI",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Mixed Doubles",
+  "start": 1794442200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3356970387"
+ },
+ "1565906": {
+  "sport": "badminton",
+  "match": "WU/YANG vs KAWABE/ISHIKAWA",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Mixed Doubles",
+  "start": 1794442200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4407974810"
+ },
+ "1565907": {
+  "sport": "badminton",
+  "match": "GAO/WU vs GUO/CHEN",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Mixed Doubles",
+  "start": 1794445200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:4299910752"
+ },
+ "1565908": {
+  "sport": "badminton",
+  "match": "KOGA/SAITO vs PUAVARANUKROH/PAEWSAMPRAN",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Mixed Doubles",
+  "start": 1794445200,
+  "confirmedAt": 1794441701,
+  "channel": "channel:3356970387"
  },
  "1565909": {
   "sport": "badminton",
