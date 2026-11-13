@@ -7444,6 +7444,15 @@
   "confirmedAt": 1794362090,
   "channel": "channel:4299910752"
  },
+ "1565814": {
+  "sport": "badminton",
+  "match": "MIYAZAKI vs WANG",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Singles",
+  "start": 1794630000,
+  "confirmedAt": 1794586301,
+  "channel": "channel:3681698340"
+ },
  "1565815": {
   "sport": "badminton",
   "match": "HE/HUANG vs SUKPHUN/TEERARATSAKUL",
@@ -7516,6 +7525,15 @@
   "confirmedAt": 1794491032,
   "channel": "channel:3356970387",
   "sooka_url": "https://sooka.my/channel/Astro-Badminton/415SnQt4cuQftXr3P3foN4/61329392"
+ },
+ "1565823": {
+  "sport": "badminton",
+  "match": "WATANABE vs VITIDSARN",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Singles",
+  "start": 1794627000,
+  "confirmedAt": 1794586299,
+  "channel": "channel:3681698340"
  },
  "1565825": {
   "sport": "badminton",
