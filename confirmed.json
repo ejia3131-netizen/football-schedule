@@ -7407,6 +7407,15 @@
   "confirmedAt": 1794362090,
   "channel": "channel:4299910752"
  },
+ "1565805": {
+  "sport": "badminton",
+  "match": "SEN vs WATANABE",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Singles",
+  "start": 1794711000,
+  "confirmedAt": 1794699390,
+  "channel": "channel:3681698340"
+ },
  "1565806": {
   "sport": "badminton",
   "match": "POPOV vs VITIDSARN",
@@ -7453,6 +7462,15 @@
   "start": 1794391800,
   "confirmedAt": 1794362090,
   "channel": "channel:4299910752"
+ },
+ "1565813": {
+  "sport": "badminton",
+  "match": "IWANAGA/NAKANISHI vs HIRAMOTO/SHIDA",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Doubles",
+  "start": 1794717000,
+  "confirmedAt": 1794699390,
+  "channel": "channel:3681698340"
  },
  "1565814": {
   "sport": "badminton",
@@ -7758,6 +7776,15 @@
   "confirmedAt": 1794489810,
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/channel/Astro-Grandstand/FOkEQSB1B9EGAStrfAs0q/61330892"
+ },
+ "1565851": {
+  "sport": "badminton",
+  "match": "YAMAGUCHI vs WANG",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Women's Singles",
+  "start": 1794720000,
+  "confirmedAt": 1794699390,
+  "channel": "channel:3681698340"
  },
  "1565852": {
   "sport": "badminton",
@@ -8187,6 +8214,15 @@
   "confirmedAt": 1794441701,
   "channel": "channel:3356970387"
  },
+ "1565905": {
+  "sport": "badminton",
+  "match": "HOKI/KOBAYASHI vs TAI/YAP",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Men's Doubles",
+  "start": 1794714000,
+  "confirmedAt": 1794699390,
+  "channel": "channel:3681698340"
+ },
  "1565906": {
   "sport": "badminton",
   "match": "WU/YANG vs KAWABE/ISHIKAWA",
@@ -8294,6 +8330,15 @@
   "start": 1794367500,
   "confirmedAt": 1794362090,
   "channel": "channel:3356970387"
+ },
+ "1565920": {
+  "sport": "badminton",
+  "match": "JIANG/WEI vs GAO/WU",
+  "tournament": "Kumamoto Masters Japan 2026",
+  "event": "Mixed Doubles",
+  "start": 1794708000,
+  "confirmedAt": 1794699390,
+  "channel": "channel:3681698340"
  },
  "1565922": {
   "sport": "badminton",
