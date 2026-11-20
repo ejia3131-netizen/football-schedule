@@ -8457,6 +8457,42 @@
   "confirmedAt": 1794362090,
   "channel": "channel:3681698340"
  },
+ "1569946": {
+  "sport": "badminton",
+  "match": "ANTONSEN vs ZHU",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Men's Singles",
+  "start": 1795170600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:3681698340"
+ },
+ "1569951": {
+  "sport": "badminton",
+  "match": "CORBETT/GAI vs LOW/MAISARAH",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Women's Doubles",
+  "start": 1795173600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:4407974810"
+ },
+ "1569952": {
+  "sport": "badminton",
+  "match": "FUKUSHIMA/MATSUMOTO vs PRATIWI/RAMADHANTI",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Women's Doubles",
+  "start": 1795173600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:3681698340"
+ },
+ "1569953": {
+  "sport": "badminton",
+  "match": "IWANAGA/NAKANISHI vs NAKADE/TAKAHASHI",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Women's Doubles",
+  "start": 1795176600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:4407974810"
+ },
  "1569955": {
   "sport": "badminton",
   "match": "WANG vs LAM",
@@ -8547,6 +8583,24 @@
   "confirmedAt": 1794958363,
   "channel": "channel:3681698340"
  },
+ "1569984": {
+  "sport": "badminton",
+  "match": "HE/REN vs CARNANDO/MARTHIN",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Men's Doubles",
+  "start": 1795170600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:3356970387"
+ },
+ "1569986": {
+  "sport": "badminton",
+  "match": "LUNDGAARD/VESTERGAARD vs MAN/TEE",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Men's Doubles",
+  "start": 1795155600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:3356970387"
+ },
  "1569990": {
   "sport": "badminton",
   "match": "SYAHNAWI/MARWAH vs YU/TSE",
@@ -8564,6 +8618,24 @@
   "start": 1794883200,
   "confirmedAt": 1794834261,
   "channel": "channel:3356970387"
+ },
+ "1569992": {
+  "sport": "badminton",
+  "match": "MIYAZAKI vs AKECHI",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Women's Singles",
+  "start": 1795152600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:3356970387"
+ },
+ "1569993": {
+  "sport": "badminton",
+  "match": "WANG vs WARDANI",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Women's Singles",
+  "start": 1795149600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:3681698340"
  },
  "1569997": {
   "sport": "badminton",
@@ -8592,6 +8664,15 @@
   "confirmedAt": 1794838435,
   "channel": "channel:3356970387"
  },
+ "1570003": {
+  "sport": "badminton",
+  "match": "KANG/LEE vs LIANG/WANG",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Men's Doubles",
+  "start": 1795155600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:3681698340"
+ },
  "1570004": {
   "sport": "badminton",
   "match": "RANKIREDDY/SHETTY vs AZRIYN/TAN",
@@ -8600,6 +8681,15 @@
   "start": 1795053000,
   "confirmedAt": 1795044133,
   "channel": "channel:3681698340"
+ },
+ "1570007": {
+  "sport": "badminton",
+  "match": "RANKIREDDY/SHETTY vs HU/LIN",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Men's Doubles",
+  "start": 1795146600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:3356970387"
  },
  "1570010": {
   "sport": "badminton",
@@ -8736,6 +8826,24 @@
   "confirmedAt": 1794838455,
   "channel": "channel:3356970387"
  },
+ "1570048": {
+  "sport": "badminton",
+  "match": "GARCIA/RODRIGUEZ vs FERDINANSYAH/PASARIBU",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1795173600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:3356970387"
+ },
+ "1570050": {
+  "sport": "badminton",
+  "match": "GAO/WU vs JIANG/WEI",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1795170600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:4407974810"
+ },
  "1570052": {
   "sport": "badminton",
   "match": "FUKUSHIMA/MATSUMOTO vs JIA/ZHANG",
@@ -8743,6 +8851,24 @@
   "event": "Women's Doubles",
   "start": 1794905400,
   "confirmedAt": 1794838474,
+  "channel": "channel:3681698340"
+ },
+ "1570053": {
+  "sport": "badminton",
+  "match": "FENG/HUANG vs WU/YANG",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1795149600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:3356970387"
+ },
+ "1570054": {
+  "sport": "badminton",
+  "match": "GUO/CHEN vs GOH/LAI",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1795146600,
+  "confirmedAt": 1795138187,
   "channel": "channel:3681698340"
  },
  "1570057": {
@@ -8781,6 +8907,15 @@
   "confirmedAt": 1794838462,
   "channel": "channel:3681698340"
  },
+ "1570065": {
+  "sport": "badminton",
+  "match": "LOH vs SEN",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Men's Singles",
+  "start": 1795152600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:3681698340"
+ },
  "1570067": {
   "sport": "badminton",
   "match": "ANTONSEN vs GUNAWAN",
@@ -8798,6 +8933,15 @@
   "start": 1795065600,
   "confirmedAt": 1795064278,
   "channel": "channel:3356970387"
+ },
+ "1570070": {
+  "sport": "badminton",
+  "match": "POPOV vs UBAIDILLAH",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Men's Singles",
+  "start": 1795176600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:3681698340"
  },
  "1570072": {
   "sport": "badminton",
@@ -8824,6 +8968,15 @@
   "event": "Women's Singles",
   "start": 1795084200,
   "confirmedAt": 1795064310,
+  "channel": "channel:3356970387"
+ },
+ "1570079": {
+  "sport": "badminton",
+  "match": "CHOCHUWONG vs SANTHOSH RAMRAJ",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Women's Singles",
+  "start": 1795143600,
+  "confirmedAt": 1795138187,
   "channel": "channel:3356970387"
  },
  "1570082": {
@@ -8862,6 +9015,15 @@
   "confirmedAt": 1795044152,
   "channel": "channel:3356970387"
  },
+ "1570090": {
+  "sport": "badminton",
+  "match": "LAM/LEE vs TAN/THINAAH",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Women's Doubles",
+  "start": 1795176600,
+  "confirmedAt": 1795138187,
+  "channel": "channel:3356970387"
+ },
  "1570092": {
   "sport": "badminton",
   "match": "KAWABE/ISHIKAWA vs SMITH/GAI",
@@ -8869,6 +9031,15 @@
   "event": "Mixed Doubles",
   "start": 1794963600,
   "confirmedAt": 1794958359,
+  "channel": "channel:3356970387"
+ },
+ "1570095": {
+  "sport": "badminton",
+  "match": "KIDAMBI vs VITIDSARN",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Men's Singles",
+  "start": 1795179600,
+  "confirmedAt": 1795138187,
   "channel": "channel:3356970387"
  },
  "1570096": {
