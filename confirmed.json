@@ -8596,6 +8596,15 @@
   "confirmedAt": 1794838503,
   "channel": "channel:3356970387"
  },
+ "1569979": {
+  "sport": "badminton",
+  "match": "FENG/HUANG vs JIANG/WEI",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Mixed Doubles",
+  "start": 1795333200,
+  "confirmedAt": 1795305743,
+  "channel": "channel:3681698340"
+ },
  "1569981": {
   "sport": "badminton",
   "match": "FENG/HUANG vs LIU/HSU",
@@ -8699,6 +8708,15 @@
   "confirmedAt": 1795216654,
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/channel/Astro-Badminton/415SnQt4cuQftXr3P3foN4/61606705"
+ },
+ "1569996": {
+  "sport": "badminton",
+  "match": "WANG vs CHOCHUWONG",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Women's Singles",
+  "start": 1795327200,
+  "confirmedAt": 1795305743,
+  "channel": "channel:3681698340"
  },
  "1569997": {
   "sport": "badminton",
@@ -8809,6 +8827,15 @@
   "start": 1794877200,
   "confirmedAt": 1794833560,
   "channel": "channel:3356970387"
+ },
+ "1570023": {
+  "sport": "badminton",
+  "match": "MAN/TEE vs CARNANDO/MARTHIN",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Men's Doubles",
+  "start": 1795330200,
+  "confirmedAt": 1795305743,
+  "channel": "channel:3681698340"
  },
  "1570025": {
   "sport": "badminton",
@@ -9249,6 +9276,15 @@
   "channel": "channel:3681698340",
   "sooka_url": "https://sooka.my/channel/Astro-Badminton/415SnQt4cuQftXr3P3foN4/61606705"
  },
+ "1570118": {
+  "sport": "badminton",
+  "match": "NAKADE/TAKAHASHI vs TAN/THINAAH",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Women's Doubles",
+  "start": 1795336200,
+  "confirmedAt": 1795305743,
+  "channel": "channel:3681698340"
+ },
  "1570121": {
   "sport": "badminton",
   "match": "YUNG vs JEON",
@@ -9275,6 +9311,15 @@
   "start": 1794966600,
   "confirmedAt": 1794958367,
   "channel": "channel:3356970387"
+ },
+ "1570126": {
+  "sport": "badminton",
+  "match": "ANTONSEN vs VITIDSARN",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "event": "Men's Singles",
+  "start": 1795339200,
+  "confirmedAt": 1795305743,
+  "channel": "channel:3681698340"
  },
  "jTnIKqKc": {
   "match": "Terengganu vs DPMM",
