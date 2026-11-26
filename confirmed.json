@@ -12121,5 +12121,11 @@
   "start": 1795636800,
   "confirmedAt": 1795571517,
   "channel": "channel:4375685324"
+ },
+ "KvepELNk": {
+  "match": "Juventus vs Omonia",
+  "competition": "Europa League - League phase",
+  "start": 1795723200,
+  "confirmedAt": 1795671839
  }
 }
