@@ -9353,6 +9353,24 @@
   "confirmedAt": 1795571290,
   "channel": "channel:3681698340"
  },
+ "1572562": {
+  "sport": "badminton",
+  "match": "SHUJIWO vs RICHARDO",
+  "tournament": "Syed Modi India International 2026",
+  "event": "Men's Singles",
+  "start": 1795851000,
+  "confirmedAt": 1795837618,
+  "channel": "channel:3356970387"
+ },
+ "1572563": {
+  "sport": "badminton",
+  "match": "WU vs MERKLE",
+  "tournament": "Syed Modi India International 2026",
+  "event": "Men's Singles",
+  "start": 1795850400,
+  "confirmedAt": 1795837618,
+  "channel": "channel:3681698340"
+ },
  "1572564": {
   "sport": "badminton",
   "match": "SHUJIWO vs SUVEER",
@@ -9614,6 +9632,15 @@
   "confirmedAt": 1795744014,
   "channel": "channel:3356970387"
  },
+ "1572622": {
+  "sport": "badminton",
+  "match": "NA/WANG vs SUKPHUN/TEERARATSAKUL",
+  "tournament": "Syed Modi India International 2026",
+  "event": "Men's Doubles",
+  "start": 1795853400,
+  "confirmedAt": 1795837618,
+  "channel": "channel:3681698340"
+ },
  "1572624": {
   "sport": "badminton",
   "match": "INDRA/JOAQUIN vs ARIF/HAIKAL",
@@ -9621,6 +9648,15 @@
   "event": "Men's Doubles",
   "start": 1795694400,
   "confirmedAt": 1795661998,
+  "channel": "channel:3681698340"
+ },
+ "1572626": {
+  "sport": "badminton",
+  "match": "INDRA/JOAQUIN vs CHAROENKITAMORN/THONGSA-NGA",
+  "tournament": "Syed Modi India International 2026",
+  "event": "Men's Doubles",
+  "start": 1795859400,
+  "confirmedAt": 1795837618,
   "channel": "channel:3681698340"
  },
  "1572628": {
@@ -9675,6 +9711,24 @@
   "event": "Women's Singles",
   "start": 1795613700,
   "confirmedAt": 1795612628,
+  "channel": "channel:3681698340"
+ },
+ "1572639": {
+  "sport": "badminton",
+  "match": "HARRIS/VAN LEEUWEN vs MEIDA/NASTINE",
+  "tournament": "Syed Modi India International 2026",
+  "event": "Women's Doubles",
+  "start": 1795865400,
+  "confirmedAt": 1795837618,
+  "channel": "channel:3681698340"
+ },
+ "1572640": {
+  "sport": "badminton",
+  "match": "JOLLY/PULLELA vs BUHROVA/KANTEMYR",
+  "tournament": "Syed Modi India International 2026",
+  "event": "Women's Doubles",
+  "start": 1795868400,
+  "confirmedAt": 1795837618,
   "channel": "channel:3681698340"
  },
  "1572644": {
@@ -9767,6 +9821,15 @@
   "confirmedAt": 1795571245,
   "channel": "channel:3356970387"
  },
+ "1572662": {
+  "sport": "badminton",
+  "match": "GUNJI vs KATETHONG",
+  "tournament": "Syed Modi India International 2026",
+  "event": "Women's Singles",
+  "start": 1795856400,
+  "confirmedAt": 1795837618,
+  "channel": "channel:3681698340"
+ },
  "1572663": {
   "sport": "badminton",
   "match": "CHAROENKITAMORN/THONGSA-NGA vs KUVALE/KUVALE",
@@ -9802,6 +9865,15 @@
   "start": 1795773000,
   "confirmedAt": 1795744031,
   "channel": "channel:3356970387"
+ },
+ "1572672": {
+  "sport": "badminton",
+  "match": "HOODA vs SHARMA",
+  "tournament": "Syed Modi India International 2026",
+  "event": "Women's Singles",
+  "start": 1795862400,
+  "confirmedAt": 1795837618,
+  "channel": "channel:3681698340"
  },
  "1572673": {
   "sport": "badminton",
@@ -10010,6 +10082,15 @@
   "confirmedAt": 1795499751,
   "channel": "channel:3356970387"
  },
+ "1572719": {
+  "sport": "badminton",
+  "match": "WEE/GOBI vs KANAPURAM/UTHAYASOORIYAN",
+  "tournament": "Syed Modi India International 2026",
+  "event": "Mixed Doubles",
+  "start": 1795847400,
+  "confirmedAt": 1795837618,
+  "channel": "channel:3681698340"
+ },
  "1572720": {
   "sport": "badminton",
   "match": "WEI/YANG vs SUKPHUN/TEERARATSAKUL",
@@ -10072,6 +10153,15 @@
   "start": 1795673400,
   "confirmedAt": 1795661916,
   "channel": "channel:3681698340"
+ },
+ "1572730": {
+  "sport": "badminton",
+  "match": "KUSHARJANTO/OKTAVIANTI vs HIDAYATULLAH/NASTINE",
+  "tournament": "Syed Modi India International 2026",
+  "event": "Mixed Doubles",
+  "start": 1795848000,
+  "confirmedAt": 1795837618,
+  "channel": "channel:3356970387"
  },
  "1572733": {
   "sport": "badminton",
